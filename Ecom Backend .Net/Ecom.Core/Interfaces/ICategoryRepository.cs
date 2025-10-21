@@ -1,5 +1,5 @@
 ﻿using Ecom.Core.Entities.Product;
-;
+
 
 namespace Ecom.Core.Interfaces
 {
