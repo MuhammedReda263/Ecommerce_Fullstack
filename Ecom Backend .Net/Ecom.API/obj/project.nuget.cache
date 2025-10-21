@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hTCPjhqUD3U=",
+  "dgSpecHash": "46qRJ14Sj+E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.API\\Ecom.API.csproj",
+  "projectFilePath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Ecom.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammed Reda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Muhammed Reda\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

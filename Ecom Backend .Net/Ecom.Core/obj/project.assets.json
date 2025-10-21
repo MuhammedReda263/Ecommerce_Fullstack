@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Ecom.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Ecom.Core.csproj",
       "projectName": "Ecom.Core",
-      "projectPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Ecom.Core.csproj",
+      "projectPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Ecom.Core.csproj",
       "packagesPath": "C:\\Users\\Muhammed Reda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\obj\\",
+      "outputPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

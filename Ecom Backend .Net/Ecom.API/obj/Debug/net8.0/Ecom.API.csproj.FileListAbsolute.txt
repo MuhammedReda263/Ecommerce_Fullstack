@@ -33,3 +33,39 @@ C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Backend .Net\Ecom\Ec
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Backend .Net\Ecom\Ecom.API\obj\Debug\net8.0\Ecom.API.pdb
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Backend .Net\Ecom\Ecom.API\obj\Debug\net8.0\Ecom.API.genruntimeconfig.cache
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Backend .Net\Ecom\Ecom.API\obj\Debug\net8.0\ref\Ecom.API.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.staticwebassets.endpoints.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.exe
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.deps.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.runtimeconfig.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Ecom.API.pdb
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.csproj.AssemblyReference.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.AssemblyInfoInputs.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.AssemblyInfo.cs
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.sourcelink.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\scopedcss\bundle\Ecom.API.styles.css
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.csproj.Up2Date
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\refint\Ecom.API.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.pdb
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.genruntimeconfig.cache
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\ref\Ecom.API.dll

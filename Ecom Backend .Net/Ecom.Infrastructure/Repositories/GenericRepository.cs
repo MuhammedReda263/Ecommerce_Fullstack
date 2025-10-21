@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Ecom.Infrastructure.Repositories
 {
-    public class GenericRepositry<T> : IGenericRepositry<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly AppDbContext _context;
-        public GenericRepositry(AppDbContext context)
+        public GenericRepository(AppDbContext context)
         {
             _context = context;
         }

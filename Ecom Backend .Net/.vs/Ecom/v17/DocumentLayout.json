@@ -1,42 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\",
+  "WorkspaceRootPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.infrastructure\\repositories\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\photorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\iphotorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\infrastructureregisteration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.infrastructure\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.core\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\igenericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.core\\entities\\product\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\product\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\product\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.core\\entities\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.core\\entities\\product\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\product\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\product\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\backend .net\\ecom\\ecom.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,64 +94,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:48:26.977Z",
+              "WhenOpened": "2025-10-21T04:25:09.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:25:00.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IPhotoRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IPhotoRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IPhotoRepository.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IPhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T04:03:14.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:47:23.665Z",
+              "WhenOpened": "2025-10-21T04:03:14.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:45:37.601Z",
+              "WhenOpened": "2025-10-21T04:03:19.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenericRepositry.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Repositories\\GenericRepositry.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\GenericRepositry.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Infrastructure\\Repositories\\GenericRepositry.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\GenericRepositry.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Title": "PhotoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\PhotoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:42:36.644Z",
+              "WhenOpened": "2025-10-21T04:03:24.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IGenericRepositry.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Interfaces\\IGenericRepositry.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IGenericRepositry.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Interfaces\\IGenericRepositry.cs",
-              "RelativeToolTip": "Ecom.Core\\Interfaces\\IGenericRepositry.cs",
+              "Title": "InfrastructureRegisteration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T00:19:37.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T00:38:34.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T04:41:44.923Z",
@@ -123,59 +211,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Photo.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Photo.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Photo.cs",
-              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Photo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:38:55.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Category.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Category.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Category.cs",
-              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:38:17.29Z",
+              "WhenOpened": "2025-10-21T00:40:25.463Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Product.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Product.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\Product\\Product.cs",
-              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:37:35.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Backend .Net\\Ecom\\Ecom.Core\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "Ecom.Core\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T04:36:37.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
             },
             {
               "$type": "Bookmark",
@@ -184,6 +229,107 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:48:26.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:42:36.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:47:23.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:45:37.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Photo.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Photo.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Photo.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:38:55.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Category.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Category.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Category.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:38:17.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\Product\\Product.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\Product\\Product.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\Product\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:37:35.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T04:36:37.73Z"
             }
           ]
         }
