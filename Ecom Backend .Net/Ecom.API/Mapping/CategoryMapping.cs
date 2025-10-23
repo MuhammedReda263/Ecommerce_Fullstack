@@ -2,7 +2,7 @@
 using Ecom.Core.DTO;
 using Ecom.Core.Entities.Product;
 
-namespace Ecom.API.Middlewares
+namespace Ecom.API.Mapping
 {
     public class CategoryMapping : Profile
     {

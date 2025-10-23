@@ -1,8 +1,18 @@
 ﻿
+using Microsoft.Extensions.Caching.Memory;
+
 namespace Ecom.API.Middlewares
 {
     public class GlobalExceptionMiddleware : IMiddleware
     {
+        private readonly IHostEnvironment _hostEnvironment;
+     
+
+        public GlobalExceptionMiddleware(IHostEnvironment hostEnvironment)
+        {
+            _hostEnvironment = hostEnvironment;
+        }
+
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
             try
@@ -14,14 +24,20 @@ namespace Ecom.API.Middlewares
            
                 context.Response.ContentType = "application/json";
                 context.Response.StatusCode = 500;
-
-                await context.Response.WriteAsJsonAsync(new
+                var response = new
                 {
                     StatusCode = 500,
-                    Message = "Internal Server Error",
-                    Details = ex.Message
-                });
+                    Message = ex.Message,
+                    Details = _hostEnvironment.IsDevelopment() ? ex.StackTrace?.ToString() : null
+                };
+
+                await context.Response.WriteAsJsonAsync(response);
             }
         }
+
+        
     }
-}
+
+   
+
+    }
