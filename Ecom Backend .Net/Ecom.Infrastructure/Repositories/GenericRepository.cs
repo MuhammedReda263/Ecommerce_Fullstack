@@ -71,5 +71,7 @@ namespace Ecom.Infrastructure.Repositories
             _context.Set<T>().Update(entity);   
             await _context.SaveChangesAsync();
         }
+
+        public async Task<int> CountAsync() => await _context.Set<T>().CountAsync();
     }
 }

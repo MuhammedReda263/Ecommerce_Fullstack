@@ -4,9 +4,6 @@
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
       "dotnetRunMessages": true,
       "applicationUrl": "http://localhost:5124",
       "hotReloadEnabled": false
@@ -19,7 +16,8 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "dotnetRunMessages": true,
-      "applicationUrl": "https://localhost:7029;http://localhost:5124"
+      "applicationUrl": "https://localhost:7029;http://localhost:5124",
+      "hotReloadEnabled": true
     },
     "IIS Express": {
       "commandName": "IISExpress",
