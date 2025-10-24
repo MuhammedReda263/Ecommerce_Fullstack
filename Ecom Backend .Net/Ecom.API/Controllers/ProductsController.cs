@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Ecom.API.Helpers;
 using Ecom.Core.DTO;
+using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
 using Ecom.Core.Services;
+using Ecom.Core.Sharing;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,17 +18,15 @@ namespace Ecom.API.Controllers
             _imageService = imageService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> getAll()
+        [HttpGet("ki")]
+        public async Task<IActionResult> getAll([FromQuery] ProductParams productParams)
         {
 
-            var product = await _unitOfWork.Products.GetAllAsync(x => x.Photos, x => x.Category);
+            var result = await _unitOfWork.Products.GetAllAsync(productParams);
 
-            var result = _mapper.Map<List<ProductDTO>>(product);
+            if (result is null) return BadRequest(new ResponseAPI(400));
 
-            if (product is null) return BadRequest(new ResponseAPI(400));
-
-            return Ok(result);
+            return Ok(new Pagination<ProductDTO>(productParams.PageNumber, productParams.pageSize, await _unitOfWork.Products.CountAsync(), result));
 
         }
 
