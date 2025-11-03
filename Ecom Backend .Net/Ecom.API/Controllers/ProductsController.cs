@@ -18,7 +18,7 @@ namespace Ecom.API.Controllers
             _imageService = imageService;
         }
 
-        [HttpGet("ki")]
+        [HttpGet()]
         public async Task<IActionResult> getAll([FromQuery] ProductParams productParams)
         {
 

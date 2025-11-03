@@ -41,8 +41,11 @@ namespace Ecom.Infrastructure.Repositories
                 ));
             }
 
-
-            query = query.Where(p => p.CategoryId == productParams.CategoryId);
+            // Apply category filter only when a valid CategoryId is provided
+            if (productParams.CategoryId is int cid && cid > 0)
+            {
+                query = query.Where(p => p.CategoryId == cid);
+            }
 
             //filtering by word
             if (!string.IsNullOrEmpty(productParams.Sort))

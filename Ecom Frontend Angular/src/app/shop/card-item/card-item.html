@@ -1,0 +1,33 @@
+             <div class="bg-dark">
+                        <div class="product-card position-relative">
+                            <i class="fas fa-bookmark bookmark-icon"></i>
+                            @if (product?.photos?.length > 0 && product.photos[0]?.imageName) {
+                            <img src="https://localhost:7029/{{product.photos[0].imageName}}" class="product-image" alt="Lenovo Legion Pro">
+                            }
+                            <div class="thumbnail-images">
+                                @for (item of product.photos; track $index) {
+                                      @if (item?.imageName) {
+                                <img src="https://localhost:7029/{{item.imageName}}" class="thumbnail" alt="Thumb 1">
+                                      }
+
+                                }
+   
+                            </div>
+                            <h3 class="product-title">{{product.name}}</h3>
+                            <p class="product-description">
+                                {{product.description}}
+                            </p>
+                            <div class="mb-3">
+                                <span class="price-original">{{product.oldPrice}}</span>
+                                <span class="price-current">{{product.newPrice}}</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-dark flex-grow-1">
+                                    <i class="fas fa-shopping-cart"></i> Add to Cart
+                                </button>
+                                <button class="btn btn-success">
+                                    <i class="fas fa-info-circle"></i> Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>

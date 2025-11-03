@@ -1,4 +1,7 @@
-import { Component, signal } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, OnInit, signal } from '@angular/core';
+import { IProducts } from './shared/Models/Product';
+import { IPagination } from './shared/Models/Pagination';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +9,11 @@ import { Component, signal } from '@angular/core';
   standalone: false,
   styleUrl: './app.scss'
 })
-export class App {
-  protected readonly title = signal('EcomFrontendAngular');
+export class App implements OnInit {
+
+
+  ngOnInit(): void {
+   
+  }
+
 }

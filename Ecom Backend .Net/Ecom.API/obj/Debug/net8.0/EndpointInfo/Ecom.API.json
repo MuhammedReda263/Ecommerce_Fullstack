@@ -142,7 +142,7 @@
         }
       }
     },
-    "/api/Products/ki": {
+    "/api/Products": {
       "get": {
         "tags": [
           "Products"
@@ -192,32 +192,7 @@
             "description": "OK"
           }
         }
-      }
-    },
-    "/api/Products/{id}": {
-      "get": {
-        "tags": [
-          "Products"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Products": {
+      },
       "post": {
         "tags": [
           "Products"
@@ -373,6 +348,29 @@
           {
             "name": "Id",
             "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Products/{id}": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"

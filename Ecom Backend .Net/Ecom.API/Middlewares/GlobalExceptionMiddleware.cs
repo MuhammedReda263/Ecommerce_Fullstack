@@ -65,7 +65,7 @@ namespace Ecom.API.Middlewares
 
             if (dateNow - timestamp < _rateLimitWindow)
             {
-                if (count >= 80)
+                if (count >= 5)
                 {
                     return false;
                 }

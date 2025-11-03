@@ -41,6 +41,26 @@ namespace Ecom.Infrastructure.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "All tech gadgets and devices",
+                            Name = "Technology"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Trendy clothes and accessories",
+                            Name = "Fashion"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Novels, study materials, and office items",
+                            Name = "Books & Stationery"
+                        });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Photo", b =>
@@ -85,9 +105,11 @@ namespace Ecom.Infrastructure.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("NewPrice")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<decimal>("OldPrice")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
@@ -95,6 +117,44 @@ namespace Ecom.Infrastructure.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            Description = "Powerful laptop with 16GB RAM and 512GB SSD",
+                            Name = "Laptop Pro X14",
+                            NewPrice = 1499.99m,
+                            OldPrice = 1699.99m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            Description = "Portable speaker with deep bass and 10h battery life",
+                            Name = "Bluetooth Speaker Mini",
+                            NewPrice = 79.99m,
+                            OldPrice = 99.99m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            Description = "Unisex denim jacket, perfect for winter style",
+                            Name = "Denim Jacket",
+                            NewPrice = 59.99m,
+                            OldPrice = 79.99m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 3,
+                            Description = "Pack of 3 ruled notebooks with hardcover design",
+                            Name = "Office Notebook Set",
+                            NewPrice = 24.99m,
+                            OldPrice = 29.99m
+                        });
                 });
 
             modelBuilder.Entity("Ecom.Core.Entities.Product.Photo", b =>

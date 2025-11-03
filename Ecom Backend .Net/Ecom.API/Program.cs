@@ -14,7 +14,7 @@ namespace Ecom.API
             {
                 options.AddPolicy("AllowAngular", policy =>
                 {
-                    policy.WithOrigins("https://localhost:4200")
+                    policy.WithOrigins("http://localhost:4200")
                           .AllowCredentials()
                           .AllowAnyHeader()
                           .AllowAnyMethod();
@@ -43,6 +43,7 @@ namespace Ecom.API
             }
             app.UseCors("AllowAngular");
             app.UseMiddleware<GlobalExceptionMiddleware>();
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
