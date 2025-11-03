@@ -19,6 +19,14 @@ namespace Ecom.Core.DTO
         public double rating { get; set; }
 
     }
+
+    public record ReturnProductDTO
+    {
+        public IEnumerable<ProductDTO> ProductsDto { get; set; }
+        public int TotalCount { get; set; }
+
+       
+    }
     public record PhotoDTO
     {
         public string ImageName { get; set; }

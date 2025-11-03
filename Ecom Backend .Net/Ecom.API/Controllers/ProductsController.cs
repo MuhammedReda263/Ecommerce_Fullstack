@@ -26,7 +26,7 @@ namespace Ecom.API.Controllers
 
             if (result is null) return BadRequest(new ResponseAPI(400));
 
-            return Ok(new Pagination<ProductDTO>(productParams.PageNumber, productParams.pageSize, await _unitOfWork.Products.CountAsync(), result));
+            return Ok(new Pagination<ProductDTO>(productParams.PageNumber, productParams.pageSize, result.TotalCount, result.ProductsDto));
 
         }
 
