@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { CoreModule } from './core/core-module';
 import { provideHttpClient, withFetch } from '@angular/common/http';
-import { ShopModule } from './shop/shop-module';
 import { HomeModule } from "./home/home-module";
 @NgModule({
   declarations: [
@@ -14,8 +13,7 @@ import { HomeModule } from "./home/home-module";
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    ShopModule,
-    HomeModule
+    HomeModule,
   ],
   providers: [
     provideBrowserGlobalErrorListeners(),
