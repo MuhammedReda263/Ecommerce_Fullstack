@@ -36,6 +36,7 @@
     "font-awesome": "^4.7.0",
     "material-icons": "^1.13.14",
     "ngx-bootstrap": "^20.0.2",
+    "ngx-image-zoom": "^3.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"

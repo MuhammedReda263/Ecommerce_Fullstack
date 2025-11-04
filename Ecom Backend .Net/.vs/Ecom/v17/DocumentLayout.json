@@ -115,8 +115,7 @@
               "RelativeToolTip": "Ecom.Core\\DTO\\ProductDTO.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:22:10.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:22:10.147Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "Ecom.API\\Helpers\\ResponseAPI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T08:21:50.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T08:21:50.537Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "Ecom.API\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:18:55.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:18:55.304Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:54:37.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T03:54:37.704Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "Ecom.Core\\Interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T03:54:05.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T03:54:05.736Z"
             },
             {
               "$type": "Document",
@@ -226,8 +221,7 @@
               "RelativeToolTip": "Ecom.API\\Middlewares\\GlobalExceptionMiddleware.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAA3wEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:50:46.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T06:50:46.299Z"
             },
             {
               "$type": "Document",
@@ -239,8 +233,7 @@
               "RelativeToolTip": "Ecom.API\\Helpers\\Pagination.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T05:13:04.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T05:13:04.859Z"
             },
             {
               "$type": "Document",

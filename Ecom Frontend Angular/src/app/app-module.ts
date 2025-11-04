@@ -1,14 +1,11 @@
 import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
 import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { CoreModule } from './core/core-module';
-import { SharedModule } from './shared/shared-module';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { ShopModule } from './shop/shop-module';
 import { HomeModule } from "./home/home-module";
-
 @NgModule({
   declarations: [
     App
@@ -19,7 +16,7 @@ import { HomeModule } from "./home/home-module";
     CoreModule,
     ShopModule,
     HomeModule
-],
+  ],
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideClientHydration(withEventReplay()),
@@ -29,5 +26,5 @@ import { HomeModule } from "./home/home-module";
   bootstrap: [App]
 })
 export class AppModule {
- 
+
 }
