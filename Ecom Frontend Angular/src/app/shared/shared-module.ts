@@ -11,7 +11,8 @@ import { Pagination } from './pagination/pagination';
   ],
   imports: [
     CommonModule,
-    PaginationModule.forRoot()
+    PaginationModule.forRoot(),
+    
   ],
   exports:[
     PaginationModule,

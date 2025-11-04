@@ -4,6 +4,8 @@ import { ShopComponent } from './shop';
 import { CardItem } from './card-item/card-item';
 import { AppRoutingModule } from "../app-routing-module";
 import { SharedModule } from '../shared/shared-module';
+import { ProductDetails } from './product-details/product-details';
+import { NgxImageZoomModule } from "ngx-image-zoom";
 
 
 
@@ -11,12 +13,14 @@ import { SharedModule } from '../shared/shared-module';
 @NgModule({
   declarations: [
     ShopComponent,
-    CardItem
+    CardItem,
+    ProductDetails
   ],
   imports: [
     CommonModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    NgxImageZoomModule
 ],
   exports:[
     ShopComponent
