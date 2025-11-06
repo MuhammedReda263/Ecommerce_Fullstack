@@ -5,6 +5,7 @@ import { IProducts } from '../shared/Models/Product';
 import { ICategory } from '../shared/Models/Category';
 import { ProductParams } from '../shared/Models/ProducrParams';
 import { PageChangedEvent } from 'ngx-bootstrap/pagination';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-shop',
@@ -14,7 +15,7 @@ import { PageChangedEvent } from 'ngx-bootstrap/pagination';
 })
 export class ShopComponent implements OnInit {
 
-  constructor(private _shopService: ShopService) { }
+  constructor(private _shopService: ShopService,private toastr: ToastrService) { }
   products: IProducts[];
   categories: ICategory[];
   productParams = new ProductParams();
@@ -33,6 +34,7 @@ export class ShopComponent implements OnInit {
         this.totalCount = value.totalCount;
       })
     })
+    this.toastr.success('Products loaded successfully','Success')
   }
   getCategory() {
     this._shopService.getCategories().subscribe({
