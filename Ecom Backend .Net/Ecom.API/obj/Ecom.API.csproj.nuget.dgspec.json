@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[8.0.21, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.9.32, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -252,6 +256,10 @@
             "Microsoft.Extensions.FileProviders.Physical": {
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.9.32, )"
             }
           },
           "imports": [
