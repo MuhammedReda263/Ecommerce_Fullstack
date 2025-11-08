@@ -156,3 +156,5 @@ C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ec
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\refint\Ecom.API.dll
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\Ecom.API.genruntimeconfig.cache
 C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\obj\Debug\net8.0\ref\Ecom.API.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Muhammed Reda\Desktop\Projects\Ecommerce-Fullstack\Ecom Backend .Net\Ecom.API\bin\Debug\net8.0\StackExchange.Redis.dll
