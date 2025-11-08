@@ -11,6 +11,7 @@ namespace Ecom.Infrastructure.Repositories
         private IProductRepository _productRepository;
         private ICategoryRepository _categoryRepository;
         private IPhotoRepository _photoRepository;
+        private ICustomerBasketRepository _CustomerBaskets;
         private IMapper _mapper;
         private IImageManagementService _imageManagementService;
 
@@ -29,6 +30,10 @@ namespace Ecom.Infrastructure.Repositories
 
         public IPhotoRepository Photos => 
             _photoRepository ??= new PhotoRepository(_context);
+
+        public ICustomerBasketRepository CustomerBaskets =>
+            _CustomerBaskets ??= new CustomerBasketRepository();
+
 
 
         public async Task<int> SaveChangesAsync()
