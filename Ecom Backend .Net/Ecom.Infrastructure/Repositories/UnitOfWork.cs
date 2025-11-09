@@ -2,6 +2,7 @@ using AutoMapper;
 using Ecom.Core.Interfaces;
 using Ecom.Core.Services;
 using Ecom.Infrastructure.Data;
+using StackExchange.Redis;
 
 namespace Ecom.Infrastructure.Repositories
 {
@@ -14,12 +15,14 @@ namespace Ecom.Infrastructure.Repositories
         private ICustomerBasketRepository _CustomerBaskets;
         private IMapper _mapper;
         private IImageManagementService _imageManagementService;
+        private readonly IConnectionMultiplexer _redis;
 
-        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService)
+        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService,IConnectionMultiplexer redis)
         {
             _context = context;
             _mapper = mapper;
             _imageManagementService = imageManagementService;
+            _redis = redis;
         }
 
         public IProductRepository Products => 
@@ -32,7 +35,7 @@ namespace Ecom.Infrastructure.Repositories
             _photoRepository ??= new PhotoRepository(_context);
 
         public ICustomerBasketRepository CustomerBaskets =>
-            _CustomerBaskets ??= new CustomerBasketRepository();
+            _CustomerBaskets ??= new CustomerBasketRepository(_redis);
 
 
 

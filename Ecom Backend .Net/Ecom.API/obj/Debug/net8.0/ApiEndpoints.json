@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "Ecom.API.Controllers.BasketController",
+    "Method": "UpdateBasketAsync",
+    "RelativePath": "api/Basket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basket",
+        "Type": "Ecom.Core.Entities.CustomerBasket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.BasketController",
+    "Method": "GetBasketByIdAsync",
+    "RelativePath": "api/Basket/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.BasketController",
+    "Method": "DeleteBasketAsync",
+    "RelativePath": "api/Basket/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ecom.API.Controllers.CategoriesController",
     "Method": "GetAllCategories",
     "RelativePath": "api/Categories",

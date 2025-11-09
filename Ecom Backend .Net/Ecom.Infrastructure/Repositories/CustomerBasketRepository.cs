@@ -33,9 +33,9 @@ namespace Ecom.Infrastructure.Repositories
             return null;
         }
 
-        public async Task<CustomerBasket> UpdateBasketAsync(CustomerBasket basket)
+        public async Task<CustomerBasket?> UpdateBasketAsync(CustomerBasket basket)
         {
-            var result = _redisDb.StringSet(basket.Id,JsonSerializer.Serialize(basket));
+            var result = _redisDb.StringSet(basket.Id, JsonSerializer.Serialize(basket));
             if (result)
             {
                 return await GetBasketAsync(basket.Id);
