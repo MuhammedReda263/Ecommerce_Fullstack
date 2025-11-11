@@ -14,7 +14,7 @@ namespace Ecom.API.Controllers
         {
         }
 
-        [HttpGet("{Id:alpha}")]
+        [HttpGet("{Id}")]
         public async Task<IActionResult> GetBasketByIdAsync(string Id)
         {
             var basket = await _unitOfWork.CustomerBaskets.GetBasketAsync(Id);
@@ -30,7 +30,7 @@ namespace Ecom.API.Controllers
             return Ok(updatedBasket);
         }
 
-        [HttpDelete("{Id:alpha}")]
+        [HttpDelete("{Id}")]
         public async Task<IActionResult> DeleteBasketAsync(string Id)
         {
             var result = await _unitOfWork.CustomerBaskets.DeleteBasketAsync(Id);

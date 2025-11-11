@@ -34,7 +34,7 @@ export class ShopComponent implements OnInit {
         this.totalCount = value.totalCount;
       })
     })
-    this.toastr.success('Products loaded successfully','Success')
+    // this.toastr.success('Products loaded successfully','Success')
   }
   getCategory() {
     this._shopService.getCategories().subscribe({
