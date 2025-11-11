@@ -16,7 +16,6 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^[A-Za-z]*$",
               "type": "string"
             }
           }
@@ -37,7 +36,6 @@
             "in": "path",
             "required": true,
             "schema": {
-              "pattern": "^[A-Za-z]*$",
               "type": "string"
             }
           }
@@ -473,6 +471,10 @@
             "type": "string",
             "nullable": true
           },
+          "image": {
+            "type": "string",
+            "nullable": true
+          },
           "quantity": {
             "type": "integer",
             "format": "int32"
@@ -509,7 +511,7 @@
             "type": "string",
             "nullable": true
           },
-          "items": {
+          "basketItems": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/BasketItem"

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\customerbasket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|solutionrelative:ecom.core\\entities\\basketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerBasket.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\CustomerBasket.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\CustomerBasket.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\CustomerBasket.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\CustomerBasket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:43:36.083Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -35,15 +60,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\BasketController.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Ecom.API\\Controllers\\BasketController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T12:51:04.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Ecom.API\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T12:51:02.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BasketItem.cs",
               "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\BasketItem.cs",
               "RelativeDocumentMoniker": "Ecom.Core\\Entities\\BasketItem.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\BasketItem.cs*",
-              "RelativeToolTip": "Ecom.Core\\Entities\\BasketItem.cs*",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\BasketItem.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\BasketItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T10:37:56.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T10:37:56.636Z"
             }
           ]
         }
