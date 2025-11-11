@@ -14,13 +14,26 @@ export class BasketService {
   private basketSource = new BehaviorSubject<IBasket>(null); // save last value emitted of IBasket
   basket$ = this.basketSource.asObservable(); // observable to be used in components
 
+  private basketSourceTotal = new BehaviorSubject<IBasketTotal>(null);
+  basketTotal$ = this.basketSourceTotal.asObservable();
+
+  calculateTotals() {
+    const basket = this.getCurrentBasketValue();
+    const shipping = 20; 
+    const subTotal = basket.basketItems.reduce((a, b) => (b.price * b.quantity) + a, 0);
+    const total = subTotal + shipping;
+    this.basketSourceTotal.next({shipping, total, subTotal});
+  }
+
   getBasket(id: string) {
     return this._http.get<IBasket>(this.baseUrl + "Basket/" + id).pipe(
       tap({
         next: (basket: IBasket) => {
           this.basketSource.next(basket);
           console.log(basket);
+          this.calculateTotals() ;
           return basket; 
+         
         },
         error: (err) => console.error('Error loading basket:', err)
       })
@@ -32,6 +45,7 @@ export class BasketService {
       next: (basket: IBasket) => {
         this.basketSource.next(basket);
         console.log(basket);
+        this.calculateTotals() ;
       },
       error: (err) => console.error('Error creating basket:', err)
     })
@@ -116,4 +130,10 @@ export class BasketService {
       error: (err) => console.error('Error deleting basket:', err)
     })
   }
+}
+
+export interface IBasketTotal {
+  shipping:number,
+  subTotal:number,
+  total:number
 }
