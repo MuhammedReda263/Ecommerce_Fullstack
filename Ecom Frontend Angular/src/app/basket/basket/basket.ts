@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BasketService } from '../basketService';
+import { BasketService, IBasketTotal } from '../basketService';
 import { IBasket, IBasketItem } from '../../shared/Models/Basket';
 
 @Component({
@@ -11,11 +11,18 @@ import { IBasket, IBasketItem } from '../../shared/Models/Basket';
 export class BasketComponent implements OnInit {
 constructor(private _basketService : BasketService) { }
 basket : IBasket
+basketTotal : IBasketTotal;
   ngOnInit(): void {
    this._basketService.basket$.subscribe({
     next:(value) => {
       this.basket = value;
       console.log("Basket loaded in BasketComponent:", value);
+    }
+   }),
+   this._basketService.basketTotal$.subscribe({ 
+    next:(bas) => {
+      this.basketTotal = bas;
+      console.log("Basket total loaded in BasketComponent:", bas);
     }
    })
   }
