@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { BasketService, IBasketTotal } from '../basketService';
-import { IBasket, IBasketItem } from '../../shared/Models/Basket';
+import { BasketClass, IBasket, IBasketItem } from '../../shared/Models/Basket';
 
 @Component({
   selector: 'app-basket',
@@ -10,7 +10,7 @@ import { IBasket, IBasketItem } from '../../shared/Models/Basket';
 })
 export class BasketComponent implements OnInit {
 constructor(private _basketService : BasketService) { }
-basket : IBasket
+basket : IBasket ;
 basketTotal : IBasketTotal;
   ngOnInit(): void {
    this._basketService.basket$.subscribe({

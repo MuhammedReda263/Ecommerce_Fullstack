@@ -58,7 +58,7 @@ export class BasketService {
   addItemToBasket(product: IProducts, quantity: number = 1) {
     const itemToAdd: IBasketItem = this.mapProductItemToBasketItem(product, quantity);
     let basket = this.getCurrentBasketValue() 
-    if (basket.id == null){
+    if (basket == null){
       basket = this.CreateBasket();
     }
     basket.basketItems = this.addOrUpdateItem(basket.basketItems, itemToAdd, quantity);
