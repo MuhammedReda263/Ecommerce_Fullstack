@@ -1,7 +1,9 @@
 using AutoMapper;
+using Ecom.Core.Entities;
 using Ecom.Core.Interfaces;
 using Ecom.Core.Services;
 using Ecom.Infrastructure.Data;
+using Microsoft.AspNetCore.Identity;
 using StackExchange.Redis;
 
 namespace Ecom.Infrastructure.Repositories
@@ -15,14 +17,22 @@ namespace Ecom.Infrastructure.Repositories
         private ICustomerBasketRepository _CustomerBaskets;
         private IMapper _mapper;
         private IImageManagementService _imageManagementService;
+        private IAuth _auth;
         private readonly IConnectionMultiplexer _redis;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signInManager;
+        private readonly IEmailService _emailService;
 
-        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService,IConnectionMultiplexer redis)
+
+        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService,IConnectionMultiplexer redis, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailService emailService)
         {
             _context = context;
             _mapper = mapper;
             _imageManagementService = imageManagementService;
             _redis = redis;
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _emailService = emailService;
         }
 
         public IProductRepository Products => 
@@ -37,7 +47,8 @@ namespace Ecom.Infrastructure.Repositories
         public ICustomerBasketRepository CustomerBaskets =>
             _CustomerBaskets ??= new CustomerBasketRepository(_redis);
 
-
+        public IAuth auth =>
+              _auth ??= new AuthRepository(_userManager,_signInManager,_emailService);
 
         public async Task<int> SaveChangesAsync()
         {

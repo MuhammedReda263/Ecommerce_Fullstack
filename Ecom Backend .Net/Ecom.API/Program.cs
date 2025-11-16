@@ -1,6 +1,9 @@
 using Ecom.API.Mapping;
 using Ecom.API.Middlewares;
 using Ecom.Infrastructure;
+using Microsoft.AspNetCore.Identity;
+using Ecom.Core.Entities;
+using Ecom.Infrastructure.Data;
 
 namespace Ecom.API
 {
@@ -31,6 +34,12 @@ namespace Ecom.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddInfrastructureServices(builder.Configuration);
+
+            // Register Identity (uses AppDbContext registered in infrastructure)
+            builder.Services.AddIdentity<AppUser, IdentityRole>(options => { /* options */ })
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
+
             builder.Services.AddScoped<GlobalExceptionMiddleware>();
 
             var app = builder.Build();
@@ -46,6 +55,9 @@ namespace Ecom.API
             app.UseStaticFiles();
 
             app.UseHttpsRedirection();
+
+            // Enable authentication middleware
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
