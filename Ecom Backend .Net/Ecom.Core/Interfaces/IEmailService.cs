@@ -1,4 +1,4 @@
-﻿using Ecom.Core.Entities;
+﻿using Ecom.Core.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Ecom.Core.Interfaces
 {
-    public interface IAuth
+    public interface IEmailService
     {
-        Task<string?> RegisterAsync(RegisterDTO registerDTO);
+        Task SendEmailAsync(EmailDTO emailDTO);
     }
 }

@@ -8,8 +8,8 @@ namespace Ecom.Core.Interfaces
         IProductRepository Products { get; }
         ICategoryRepository Categories { get; }
         IPhotoRepository Photos { get; }
-
         ICustomerBasketRepository CustomerBaskets { get; }
+        IAuth auth { get; }
         Task<int> SaveChangesAsync();
     }
 }

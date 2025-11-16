@@ -1,4 +1,5 @@
-﻿using Ecom.Core.Interfaces;
+﻿using Ecom.Core.Entities;
+using Ecom.Core.Interfaces;
 using Ecom.Core.Services;
 using Ecom.Infrastructure.Data;
 using Ecom.Infrastructure.Repositories;
@@ -6,6 +7,7 @@ using Ecom.Infrastructure.Repositories.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.FileProviders;
 using StackExchange.Redis;
 
@@ -18,13 +20,17 @@ namespace Ecom.Infrastructure
             // Add infrastructure services here, e.g., DbContext, Repositories, etc.
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            //Register EmailSender
+
+            services.AddScoped<IEmailService, EmailService>();
+
             services.AddSingleton<IImageManagementService, ImageManagementService>();
 
             //Applay redis
 
             services.AddSingleton<IConnectionMultiplexer>( sp =>
             {
-                var configurationOptions = ConfigurationOptions.Parse(configuration.GetConnectionString("RedisConnection"), true);
+                var configurationOptions = ConfigurationOptions.Parse(configuration.GetConnectionString("RedisConnection")!, true);
                 return ConnectionMultiplexer.Connect(configurationOptions);
             });
 
@@ -39,7 +45,8 @@ namespace Ecom.Infrastructure
             );
 
             services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
             return services;
         }
     }
