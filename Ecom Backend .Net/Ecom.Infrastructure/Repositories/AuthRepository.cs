@@ -63,5 +63,36 @@ namespace Ecom.Infrastructure.Repositories
            await _emailService.SendEmailAsync(emailDTO);
 
         }
-    } 
+
+        public async Task<string?> LoginAsync(loginDTO login)
+        {
+            if (login == null)
+            {
+                return null;
+            }
+            var finduser = await _userManager.FindByEmailAsync(login.Email);
+
+            if(finduser != null)
+            {
+                if (!finduser.EmailConfirmed)
+                {
+                    string token = await _userManager.GenerateEmailConfirmationTokenAsync(finduser);
+
+                    await SendEmail(finduser.Email!, token, "active", "ActiveEmail", "Please active your email, click on button to active");
+
+                    return "Please confirem your email first, we have send activat to your E-mail";
+                }
+                var result = await _signInManager.CheckPasswordSignInAsync(finduser, login.Password, true);
+
+                if (result.Succeeded) return "Done";
+                else return "please check your email and password, something went wrong";
+            }
+
+
+            
+
+            return "please check your email and password, something went wrong";
+        }
+
+    }
 }
