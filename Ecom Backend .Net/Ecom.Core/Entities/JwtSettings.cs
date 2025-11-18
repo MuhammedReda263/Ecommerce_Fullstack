@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ecom.Core.Entities
 {
-    internal class JwtSettings
+    public class JwtSettings
     {
+        public string Secret { get; set; }
+        public string Issuer { get; set; }
+
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ecom.Core.DTO
 {
-    internal class ResetPasswordDTO
+    public class ResetPasswordDTO
     {
+        public string Email { get; set; } = string.Empty;
+        public string Token { get; set; } = string.Empty;
+        public string NewPassword { get; set; } = string.Empty;
     }
+
 }

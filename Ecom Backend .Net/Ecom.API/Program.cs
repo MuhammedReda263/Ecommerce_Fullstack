@@ -42,6 +42,9 @@ namespace Ecom.API
 
             builder.Services.AddScoped<GlobalExceptionMiddleware>();
 
+            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -52,14 +55,13 @@ namespace Ecom.API
             }
             app.UseCors("AllowAngular");
             app.UseMiddleware<GlobalExceptionMiddleware>();
-            app.UseStaticFiles();
-
-            app.UseHttpsRedirection();
-
             // Enable authentication middleware
             app.UseAuthentication();
 
             app.UseAuthorization();
+            app.UseStaticFiles();
+
+            app.UseHttpsRedirection();
 
             app.MapControllers();
 

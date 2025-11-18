@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ecom.Core.DTO
 {
-    internal class ActiveAccountDTO
+    public class ActiveAccountDTO
     {
+        public string Email { get; set; } = string.Empty;
+        public string Token { get; set; } = string.Empty;
     }
 }

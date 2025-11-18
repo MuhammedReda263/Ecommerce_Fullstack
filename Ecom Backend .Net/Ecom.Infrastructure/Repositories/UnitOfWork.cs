@@ -22,9 +22,10 @@ namespace Ecom.Infrastructure.Repositories
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IEmailService _emailService;
+        private readonly IGenerateToken _generateToken;
 
 
-        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService,IConnectionMultiplexer redis, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailService emailService)
+        public UnitOfWork(AppDbContext context, IMapper mapper, IImageManagementService imageManagementService,IConnectionMultiplexer redis, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailService emailService, IGenerateToken generateToken)
         {
             _context = context;
             _mapper = mapper;
@@ -33,6 +34,7 @@ namespace Ecom.Infrastructure.Repositories
             _userManager = userManager;
             _signInManager = signInManager;
             _emailService = emailService;
+            _generateToken = generateToken;
         }
 
         public IProductRepository Products => 
@@ -48,7 +50,8 @@ namespace Ecom.Infrastructure.Repositories
             _CustomerBaskets ??= new CustomerBasketRepository(_redis);
 
         public IAuth auth =>
-              _auth ??= new AuthRepository(_userManager,_signInManager,_emailService);
+              _auth ??= new AuthRepository(_userManager,_signInManager,_emailService, _generateToken);
+
 
         public async Task<int> SaveChangesAsync()
         {
