@@ -1,0 +1,126 @@
+<section class="vh-100" style="background-color: #eee;">
+  <div class="container vh-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                <!-- ⭐ Form Group -->
+                <form class="mx-1 mx-md-4" [formGroup]="fromgroup" (ngSubmit)="Submit()">
+
+                  <!-- ⭐ Username -->
+                  <div class="d-flex flex-row align-items-center mb-4 form-row">
+                    <div class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="UserName">User Name</label>
+
+                      <input type="text" id="UserName" class="form-control" formControlName="userName" [ngClass]="{
+                          'is-invalid': UserName?.invalid && UserName?.touched,
+                          'is-valid': UserName?.valid && UserName?.touched
+                        }" />
+
+                      @if(UserName?.invalid && UserName?.touched) {
+                      <div class="text-danger mt-1">
+                        @if(UserName?.errors?.['required']) {
+                        <small>Username is required</small>
+                        }
+                        @if(UserName?.errors?.['minlength']) {
+                        <small>
+                          Minimum length is {{ UserName?.errors?.['minlength'].requiredLength }}
+                        </small>
+                        }
+                      </div>
+                      }
+                    </div>
+                  </div>
+
+                  <!-- ⭐ DisplayName -->
+                  <div class="d-flex flex-row align-items-center mb-4 form-row">
+                    <div class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="DisplayName">Display Name</label>
+
+                      <input type="text" id="DisplayName" class="form-control" formControlName="displayName" [ngClass]="{
+                          'is-invalid': DisplayName?.invalid && DisplayName?.touched,
+                          'is-valid': DisplayName?.valid && DisplayName?.touched
+                        }" />
+
+                      @if(DisplayName?.invalid && DisplayName?.touched) {
+                      <div class="text-danger mt-1">
+                        <small>Display Name is required</small>
+                      </div>
+                      }
+                    </div>
+                  </div>
+
+                  <!-- ⭐ Email -->
+                  <div class="d-flex flex-row align-items-center mb-4 form-row">
+                    <div class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="Email">Email</label>
+
+                      <input type="email" id="Email" class="form-control" formControlName="email" [ngClass]="{
+                          'is-invalid': Email?.invalid && Email?.touched,
+                          'is-valid': Email?.valid && Email?.touched
+                        }" />
+
+                      @if(Email?.invalid && Email?.touched) {
+                      <div class="text-danger mt-1">
+                        @if(Email?.errors?.['required']) {
+                        <small>Email is required</small>
+                        }
+                        @if(Email?.errors?.['email']) {
+                        <small>Invalid Email format</small>
+                        }
+                      </div>
+                      }
+                    </div>
+                  </div>
+
+                  <!-- ⭐ Password -->
+                  <div class="d-flex flex-row align-items-center mb-4 form-row">
+                    <div class="form-outline flex-fill mb-0">
+                      <label class="form-label" for="Password">Password</label>
+
+                      <input type="password" id="Password" class="form-control" formControlName="password" [ngClass]="{
+                          'is-invalid': Password?.invalid && Password?.touched,
+                          'is-valid': Password?.valid && Password?.touched
+                        }" />
+
+                      @if(Password?.invalid && Password?.touched) {
+                      <div class="text-danger mt-1">
+                        @if(Password?.errors?.['required']) {
+                        <small>Password is required</small>
+                        }
+                        @if(Password?.errors?.['minlength']) {
+                        <small>
+                          Minimum length is {{ Password?.errors?.['minlength'].requiredLength }}
+                        </small>
+                        }
+                      </div>
+                      }
+                    </div>
+                  </div>
+
+                  <!-- ⭐ Submit -->
+                  <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                    <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                  </div>
+
+                </form>
+
+              </div>
+
+              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  class="img-fluid" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

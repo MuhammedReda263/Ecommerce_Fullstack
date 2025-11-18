@@ -20,7 +20,8 @@ import { ShopRoutingModule } from './shop-routing-module';
     CommonModule,
     ShopRoutingModule,
     SharedModule,
-    NgxImageZoomModule
+    NgxImageZoomModule,
+    
   ],
   exports: [
 

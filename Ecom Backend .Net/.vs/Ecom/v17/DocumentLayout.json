@@ -170,8 +170,7 @@
               "RelativeToolTip": "Ecom.API\\Controllers\\AccountController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAiwB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:48:52.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T22:48:52.303Z"
             },
             {
               "$type": "Document",
@@ -183,8 +182,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
               "ViewState": "AgIAAEcAAAAAAAAAAAAiwFkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:47:01.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:47:01.915Z"
             },
             {
               "$type": "Document",
@@ -196,8 +194,7 @@
               "RelativeToolTip": "Ecom.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:54:54.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T22:54:54.472Z"
             },
             {
               "$type": "Document",
@@ -207,7 +204,7 @@
               "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwEkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T19:02:54.764Z",
               "EditorCaption": ""
@@ -222,8 +219,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAmwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:39:30.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:39:30.479Z"
             },
             {
               "$type": "Document",
@@ -235,8 +231,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\CategoryConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:21:46.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:21:46.704Z"
             },
             {
               "$type": "Document",
@@ -248,8 +243,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Configurations\\ProductConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:21:48.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:21:48.014Z"
             },
             {
               "$type": "Document",
@@ -261,8 +255,7 @@
               "RelativeToolTip": "Ecom.Core\\DTO\\EmailDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T20:40:18.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T20:40:18.435Z"
             },
             {
               "$type": "Document",
@@ -274,8 +267,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\Services\\EmailService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAmwDQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T14:57:00.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T14:57:00.994Z"
             },
             {
               "$type": "Document",
@@ -287,8 +279,7 @@
               "RelativeToolTip": "Ecom.Core\\Interfaces\\IAuth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:43:40.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:43:40.936Z"
             },
             {
               "$type": "Document",
@@ -300,8 +291,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:45:34.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:45:34.813Z"
             },
             {
               "$type": "Document",
@@ -313,8 +303,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\UnitOfWork.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:56:51.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:56:51.622Z"
             },
             {
               "$type": "Document",
@@ -326,8 +315,7 @@
               "RelativeToolTip": "Ecom.API\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T12:51:02.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T12:51:02.449Z"
             },
             {
               "$type": "Document",
@@ -339,8 +327,7 @@
               "RelativeToolTip": "Ecom.API\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T23:04:33.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T23:04:33.163Z"
             },
             {
               "$type": "Document",
@@ -352,8 +339,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\InfrastructureRegisteration.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAE8AAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:21:43.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:21:43.086Z"
             },
             {
               "$type": "Document",
@@ -365,8 +351,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Ecom.Infrastructure.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-16T20:41:02.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T20:41:02.551Z"
             },
             {
               "$type": "Document",
@@ -378,8 +363,7 @@
               "RelativeToolTip": "Ecom.API\\Program.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAawD8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T17:21:36.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T17:21:36.916Z"
             },
             {
               "$type": "Document",
@@ -391,8 +375,7 @@
               "RelativeToolTip": "Ecom.Core\\DTO\\ActiveAccountDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T19:32:15.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T19:32:15.832Z"
             },
             {
               "$type": "Document",
@@ -404,8 +387,7 @@
               "RelativeToolTip": "Ecom.Core\\DTO\\ResetPasswordDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T19:11:04.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T19:11:04.716Z"
             },
             {
               "$type": "Document",
@@ -417,8 +399,7 @@
               "RelativeToolTip": "Ecom.Core\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:56:07.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:56:07.998Z"
             },
             {
               "$type": "Document",
@@ -430,8 +411,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAuwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T23:00:17.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T23:00:17.165Z"
             },
             {
               "$type": "Document",
@@ -443,8 +423,7 @@
               "RelativeToolTip": "Ecom.Core\\Services\\IGenerateToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T22:58:59.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T22:58:59.478Z"
             },
             {
               "$type": "Document",
@@ -456,8 +435,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\JwtSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:20:33.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T17:20:33.868Z"
             },
             {
               "$type": "Document",
@@ -469,8 +447,7 @@
               "RelativeToolTip": "Ecom.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-16T14:57:55.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T14:57:55.008Z"
             },
             {
               "$type": "Document",
@@ -482,8 +459,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\Address.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:36:45.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:36:45.477Z"
             },
             {
               "$type": "Document",
@@ -495,8 +471,7 @@
               "RelativeToolTip": "Ecom.Core\\DTO\\loginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T20:50:33.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T20:50:33.397Z"
             },
             {
               "$type": "Document",
@@ -508,8 +483,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\Services\\ImageManagementService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T18:54:00.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T18:54:00.883Z"
             },
             {
               "$type": "Document",
@@ -521,8 +495,7 @@
               "RelativeToolTip": "Ecom.Core\\Interfaces\\IEmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T14:56:00.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T14:56:00.027Z"
             },
             {
               "$type": "Document",
@@ -534,8 +507,7 @@
               "RelativeToolTip": "Ecom.Infrastructure\\Data\\Migrations\\20251115174232_Add_Identity_Tables.cs",
               "ViewState": "AgIAAJQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:42:32.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:42:32.522Z"
             },
             {
               "$type": "Document",
@@ -547,8 +519,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:01:03.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T17:01:03.359Z"
             },
             {
               "$type": "Document",
@@ -560,8 +531,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\CustomerBasket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T14:43:36.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T14:43:36.083Z"
             },
             {
               "$type": "Document",
@@ -573,8 +543,7 @@
               "RelativeToolTip": "Ecom.API\\Controllers\\BasketController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T12:51:04.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T12:51:04.621Z"
             },
             {
               "$type": "Document",
@@ -586,8 +555,7 @@
               "RelativeToolTip": "Ecom.Core\\Entities\\BasketItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T10:37:56.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T10:37:56.636Z"
             }
           ]
         }
