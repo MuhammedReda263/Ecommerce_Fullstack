@@ -11,6 +11,9 @@ export class IdentityService {
   register (body:any){
     return this._http.post(this.baseURL + "Account/register",body)
   }
+  login (body:any){
+    return this._http.post(this.baseURL + "Account/login",body)
+  }
 
   active (body:any){
     return this._http.post(this.baseURL + "Account/active",body)

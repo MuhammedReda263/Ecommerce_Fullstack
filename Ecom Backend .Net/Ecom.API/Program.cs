@@ -42,7 +42,7 @@ namespace Ecom.API
 
             builder.Services.AddScoped<GlobalExceptionMiddleware>();
 
-            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
+            builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Token"));
 
 
             var app = builder.Build();

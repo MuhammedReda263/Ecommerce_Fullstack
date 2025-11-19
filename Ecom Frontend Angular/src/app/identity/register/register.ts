@@ -27,18 +27,18 @@ export class RegisterComponent implements OnInit {
   }
 
   get UserName() {
-    return this.fromgroup.get('UserName');
+    return this.fromgroup.get('userName');
   }
 
   get Email() {
-    return this.fromgroup.get('Email');
+    return this.fromgroup.get('email');
   }
   get DisplayName() {
-    return this.fromgroup.get('DisplayName');
+    return this.fromgroup.get('displayName');
   }
 
   get Password() {
-    return this.fromgroup.get('Password');
+    return this.fromgroup.get('password');
   }
 
   Submit() {
