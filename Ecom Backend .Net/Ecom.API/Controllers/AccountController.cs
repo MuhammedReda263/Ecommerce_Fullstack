@@ -15,7 +15,7 @@ namespace Ecom.API.Controllers
         {
         }
 
-        [HttpPost("Register")]
+        [HttpPost("register")]
         public async Task<IActionResult> Register( RegisterDTO registerDTO)
         {
            var result = await _unitOfWork.auth.RegisterAsync(registerDTO);
@@ -24,7 +24,7 @@ namespace Ecom.API.Controllers
             return BadRequest(new ResponseAPI(400, result));
         }
 
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login( loginDTO loginDTO)
         {
            var result = await _unitOfWork.auth.LoginAsync(loginDTO);
@@ -52,9 +52,9 @@ namespace Ecom.API.Controllers
         }
 
         [HttpGet("forget-password")]
-        public async Task<IActionResult> forget(string email)
+        public async Task<IActionResult> forget(ForgetPasswordDTO forgetPasswordDTO)
         {
-            var result = await _unitOfWork.auth.SendEmailForForgetPassword(email);
+            var result = await _unitOfWork.auth.SendEmailForForgetPassword(forgetPasswordDTO.Email);
             return result ? Ok(new ResponseAPI(200,"Email sent Successfully")) : BadRequest(new ResponseAPI(400,"User not found"));
         }
 

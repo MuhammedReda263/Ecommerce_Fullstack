@@ -41,7 +41,7 @@ namespace Ecom.Core.Sharing
     <br>
 
     <a class=""button"" 
-       href=""http://localhost:4200/Account/{component}?email={email}&code={encodedToken}"">
+       href=""http://localhost:4200/account/{component}?email={email}&code={encodedToken}"">
         {message}
     </a>
 </body>

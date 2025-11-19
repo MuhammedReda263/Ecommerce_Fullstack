@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Account/Register": {
+    "/api/Account/register": {
       "post": {
         "tags": [
           "Account"
@@ -36,7 +36,7 @@
         }
       }
     },
-    "/api/Account/Login": {
+    "/api/Account/login": {
       "post": {
         "tags": [
           "Account"
@@ -120,15 +120,25 @@
         "tags": [
           "Account"
         ],
-        "parameters": [
-          {
-            "name": "email",
-            "in": "query",
-            "schema": {
-              "type": "string"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgetPasswordDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgetPasswordDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ForgetPasswordDTO"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -692,6 +702,16 @@
             "items": {
               "$ref": "#/components/schemas/BasketItem"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ForgetPasswordDTO": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
             "nullable": true
           }
         },

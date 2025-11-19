@@ -34,9 +34,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "email",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "forgetPasswordDTO",
+        "Type": "Ecom.Core.DTO.ForgetPasswordDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -44,7 +44,7 @@
   {
     "ContainingType": "Ecom.API.Controllers.AccountController",
     "Method": "Login",
-    "RelativePath": "api/Account/Login",
+    "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -60,7 +60,7 @@
   {
     "ContainingType": "Ecom.API.Controllers.AccountController",
     "Method": "Register",
-    "RelativePath": "api/Account/Register",
+    "RelativePath": "api/Account/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

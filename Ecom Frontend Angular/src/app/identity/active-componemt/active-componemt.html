@@ -1,0 +1,32 @@
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="card shadow-lg p-4 text-center" style="width: 450px; border-radius: 18px;">
+
+        @if (status === 'loading') {
+        <div>
+            <div class="spinner-border mb-3" role="status"></div>
+            <h4 class="mb-2">Activating your account...</h4>
+            <p class="text-muted">Please wait a moment</p>
+        </div>
+        }
+
+        @else if (status === 'success') {
+        <div>
+            <div class="text-success mb-3" style="font-size: 60px;">✓</div>
+            <h4 class="mb-2">Account Activated 🎉</h4>
+            <p class="text-muted">Redirecting to login...</p>
+        </div>
+        }
+
+        @else if (status === 'failed') {
+        <div>
+            <div class="text-danger mb-3" style="font-size: 60px;">✕</div>
+            <h4 class="mb-2">Activation Failed</h4>
+            <p class="text-muted">
+                The link may be expired.
+                A new activation email has been sent.
+            </p>
+        </div>
+        }
+
+    </div>
+</div>

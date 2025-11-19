@@ -4,16 +4,20 @@ import { CommonModule } from '@angular/common';
 import { IdentityRoutingModule } from './identity-routing-module';
 import { RegisterComponent } from './register/register';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ActiveComponemt } from './active-componemt/active-componemt';
+import { Router } from 'express';
 
 
 @NgModule({
   declarations: [
-    RegisterComponent
+    RegisterComponent,
+    ActiveComponemt
   ],
   imports: [
     CommonModule,
     IdentityRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    
   ]
 })
 export class IdentityModule { }
