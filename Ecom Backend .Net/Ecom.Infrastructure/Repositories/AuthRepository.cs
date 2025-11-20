@@ -103,7 +103,7 @@ namespace Ecom.Infrastructure.Repositories
             var findUser = await _userManager.FindByEmailAsync(email);
             if (findUser == null) return false;
             var token = await _userManager.GeneratePasswordResetTokenAsync(findUser);
-            await SendEmail(findUser.Email!, token, "Reset-Password", "Rest pssword", "click on button to Reset your password");
+            await SendEmail(findUser.Email!, token, "resetPassword", "Rest pssword", "click on button to Reset your password");
             return true;
 
         }

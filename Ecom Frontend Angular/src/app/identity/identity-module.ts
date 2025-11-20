@@ -7,13 +7,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ActiveComponemt } from './active-componemt/active-componemt';
 import { Router } from 'express';
 import { LoginComponent } from './login-component/login-component';
+import { ForgetPasswordComponent } from './forget-password-component/forget-password-component';
+import { ResetPasswordComponent } from './reset-password-component/reset-password-component';
 
 
 @NgModule({
   declarations: [
     RegisterComponent,
     ActiveComponemt,
-    LoginComponent
+    LoginComponent,
+    ForgetPasswordComponent,
+    ResetPasswordComponent
   ],
   imports: [
     CommonModule,

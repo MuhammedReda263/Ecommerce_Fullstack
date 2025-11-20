@@ -116,7 +116,7 @@
       }
     },
     "/api/Account/forget-password": {
-      "get": {
+      "post": {
         "tags": [
           "Account"
         ],
