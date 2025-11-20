@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\services\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\services\\generatetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7691547E-8838-4098-9FFD-3208ACB90DFD}|Ecom.API\\Ecom.API.csproj|solutionrelative:ecom.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E2CF8FD-5FD5-4285-9D04-22879A7AC4DE}|Ecom.Infrastructure\\Ecom.Infrastructure.csproj|solutionrelative:ecom.infrastructure\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DBE49F7-193A-419F-BBC6-B89DB4CE7092}|Ecom.Core\\Ecom.Core.csproj|c:\\users\\muhammed reda\\desktop\\projects\\ecommerce-fullstack\\ecom backend .net\\ecom.core\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,15 +170,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwFIAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IAuth.cs",
+              "RelativeToolTip": "Ecom.Core\\Interfaces\\IAuth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:39:30.479Z",
+              "WhenOpened": "2025-11-15T18:43:40.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenerateToken.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T23:00:17.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\JwtSettings.cs",
+              "RelativeToolTip": "Ecom.Core\\Entities\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T17:20:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Ecom.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\appsettings.json",
+              "RelativeToolTip": "Ecom.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-16T14:57:55.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Program.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Program.cs",
+              "RelativeToolTip": "Ecom.API\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAawDEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T17:21:36.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Ecom.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T22:48:52.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:47:01.915Z",
               "EditorCaption": ""
             },
             {
@@ -195,67 +273,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuth.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IAuth.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Interfaces\\IAuth.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Interfaces\\IAuth.cs",
-              "RelativeToolTip": "Ecom.Core\\Interfaces\\IAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Ecom.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAmwFIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:43:40.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenerateToken.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\Services\\GenerateToken.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T23:00:17.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "Ecom.Core\\Entities\\JwtSettings.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Core\\Entities\\JwtSettings.cs",
-              "RelativeToolTip": "Ecom.Core\\Entities\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T17:20:33.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Ecom.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\appsettings.json",
-              "RelativeToolTip": "Ecom.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-16T14:57:55.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Program.cs",
-              "RelativeDocumentMoniker": "Ecom.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Program.cs",
-              "RelativeToolTip": "Ecom.API\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAawDEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T17:21:36.916Z",
+              "WhenOpened": "2025-11-15T17:39:30.479Z",
               "EditorCaption": ""
             },
             {
@@ -269,32 +295,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-17T19:32:15.832Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
-              "RelativeToolTip": "Ecom.Infrastructure\\Repositories\\AuthRepository.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFwAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:47:01.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Ecom.API\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Muhammed Reda\\Desktop\\Projects\\Ecommerce-Fullstack\\Ecom Backend .Net\\Ecom.API\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Ecom.API\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T22:48:52.303Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

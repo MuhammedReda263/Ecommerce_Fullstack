@@ -29,7 +29,7 @@
     "ContainingType": "Ecom.API.Controllers.AccountController",
     "Method": "forget",
     "RelativePath": "api/Account/forget-password",
-    "HttpMethod": "GET",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

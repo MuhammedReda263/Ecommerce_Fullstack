@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { IdentityService } from '../identity-service';
 import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-component',
@@ -11,7 +12,13 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class LoginComponent implements OnInit {
   formGroup: FormGroup;
-  constructor(private _fb: FormBuilder, private _identityService: IdentityService,private _toaster: ToastrService) { }
+  constructor(
+     private _fb: FormBuilder,
+     private _identityService: IdentityService,
+     private _toaster: ToastrService,
+     private _router: Router
+    
+    ) { }
   ngOnInit(): void {
     this.formValidation();
   }
@@ -35,6 +42,9 @@ export class LoginComponent implements OnInit {
         next: (res) => {
           console.log(res);
           this._toaster.success("Login Successful","Success")
+          this._router.navigate(['/shop']);
+
+
         },
         error: (err) => {
           console.log(err);

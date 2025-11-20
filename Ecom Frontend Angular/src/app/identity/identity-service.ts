@@ -18,4 +18,12 @@ export class IdentityService {
   active (body:any){
     return this._http.post(this.baseURL + "Account/active",body)
   }
+
+  forgetPassword(body:any){
+    return this._http.post(this.baseURL + "Account/forget-password", body);
+  }
+
+  resetPassword(body:any){
+    return this._http.post(this.baseURL + "Account/reset-password", body);
+  }
 }

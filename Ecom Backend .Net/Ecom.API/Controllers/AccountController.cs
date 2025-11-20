@@ -51,7 +51,7 @@ namespace Ecom.API.Controllers
             return result ? Ok(new ResponseAPI(200, "Activation Successed")) : BadRequest(new ResponseAPI(400, "Activation Failed"));
         }
 
-        [HttpGet("forget-password")]
+        [HttpPost("forget-password")]
         public async Task<IActionResult> forget(ForgetPasswordDTO forgetPasswordDTO)
         {
             var result = await _unitOfWork.auth.SendEmailForForgetPassword(forgetPasswordDTO.Email);
