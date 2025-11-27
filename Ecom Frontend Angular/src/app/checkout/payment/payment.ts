@@ -31,6 +31,7 @@ export class Payment {
     }
     this._checkoutService.createOrder(this.order).subscribe({
       next: (value) => {
+        this._basketService.deleteBasketFE();
         this._toaster.success("Order Created Succefully", "Sucess");
         this._router.navigate(['/checkout/success',value.id])
 

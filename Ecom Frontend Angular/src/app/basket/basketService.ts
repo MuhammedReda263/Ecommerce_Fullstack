@@ -19,6 +19,12 @@ export class BasketService {
   basketTotal$ = this.basketSourceTotal.asObservable();
   shippingPrice: number = 0;
 
+  deleteBasketFE() {
+    this.basketSource.next(null)
+    this.basketSourceTotal.next(null);
+    localStorage.removeItem('basket_id');
+  }
+
   setShippingPrice(value: number) {
     this.shippingPrice = value;
     this.calculateTotals();
