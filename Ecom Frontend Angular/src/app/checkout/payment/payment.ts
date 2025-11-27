@@ -4,6 +4,7 @@ import { ICreateOrder } from '../../shared/Models/Order';
 import { FormGroup } from '@angular/forms';
 import { CheckoutService } from '../checkout-service';
 import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-payment',
@@ -12,7 +13,11 @@ import { ToastrService } from 'ngx-toastr';
   styleUrl: './payment.scss',
 })
 export class Payment {
-  constructor(private _basketService: BasketService, private _checkoutService: CheckoutService, private _toaster: ToastrService) { }
+  constructor(private _basketService: BasketService, 
+    private _checkoutService: CheckoutService,
+     private _toaster: ToastrService,
+     private _router : Router
+    ) { }
   order: ICreateOrder
   @Input() delivery: FormGroup
   @Input() shippingAddress: FormGroup
@@ -27,6 +32,8 @@ export class Payment {
     this._checkoutService.createOrder(this.order).subscribe({
       next: (value) => {
         this._toaster.success("Order Created Succefully", "Sucess");
+        this._router.navigate(['/checkout/success',value.id])
+
       }
     })
   }

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment.development';
 import { HttpClient } from '@angular/common/http';
 import { DeliveryModel } from '../shared/Models/Delivery';
-import { ICreateOrder } from '../shared/Models/Order';
+import { ICreateOrder, IOrder } from '../shared/Models/Order';
 
 @Injectable({
   providedIn: 'root'
@@ -24,6 +24,6 @@ export class CheckoutService {
   }
 
   createOrder (form:ICreateOrder){
-    return this._http.post(this.baseUrl+"Orders",form)
+    return this._http.post<IOrder>(this.baseUrl+"Orders",form)
   }
 }

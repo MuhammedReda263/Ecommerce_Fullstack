@@ -1,0 +1,69 @@
+<div class="container my-5">
+
+  <h3 class="fw-bold mb-4">My Orders</h3>
+
+  <div class="table-responsive shadow-sm rounded-4 border">
+
+    <table class="table align-middle mb-0">
+
+      <!-- HEAD -->
+      <thead class="table-light">
+        <tr>
+          <th>Order</th>
+          <th>Image</th>
+          <th>Date</th>
+          <th>Status</th>
+          <th>Total</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+
+      <!-- BODY -->
+      <tbody>
+
+        @for (order of orders; track order.id) {
+
+        <tr>
+
+          <!-- Order ID -->
+          <td class="fw-semibold">#{{ order.id }}</td>
+
+          <!-- Image -->
+          <td>
+            <img [src]="'https://localhost:7029/' + order.orderItems[0].mainImage"
+                 class="rounded"
+                 style="width: 60px; height: 60px; object-fit: cover;">
+          </td>
+
+          <!-- Date -->
+          <td>{{ order.orderDate | date:'medium' }}</td>
+
+          <!-- Status -->
+          <td>
+            <span class="badge px-3 py-2"
+                  [ngClass]="getStatusClass(order.status)">
+              {{ order.status }}
+            </span>
+          </td>
+
+          <!-- Total -->
+          <td class="fw-bold">{{ order.total | currency }}</td>
+
+          <!-- Details -->
+          <td>
+            <button class="btn btn-outline-primary btn-sm"
+                    [routerLink]="['/orders/item']" [queryParams]="{ id: order.id}" >
+              View
+            </button>
+          </td>
+
+        </tr>
+        }
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

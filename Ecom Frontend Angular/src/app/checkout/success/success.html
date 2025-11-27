@@ -1,0 +1,28 @@
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="text-center p-5 shadow-lg rounded-4 bg-white" style="max-width: 500px;">
+
+        <!-- Success Icon -->
+        <div class="mb-3">
+            <i class="fa fa-check-circle" style="font-size: 80px; color: #28a745;"></i>
+        </div>
+
+        <!-- Title -->
+        <h2 class="fw-bold">Thank You! 🎉</h2>
+        <p class="text-muted fs-5">Your order has been confirmed successfully</p>
+
+        <hr>
+
+        <!-- Message -->
+        <p class="mb-4">
+            We’re preparing your order and it will be shipped as soon as possible.
+            <br>
+            Order ID: <strong>#{{ orderId }}</strong>
+        </p>
+
+        <!-- Button -->
+        <button class="btn btn-success btn-lg px-4" [routerLink]="['/orders/item']" [queryParams]="{ id: orderId }">
+            View Order
+        </button>
+
+    </div>
+</div>

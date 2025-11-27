@@ -18,6 +18,7 @@ export class BasketService {
   private basketSourceTotal = new BehaviorSubject<IBasketTotal>(null);
   basketTotal$ = this.basketSourceTotal.asObservable();
   shippingPrice: number = 0;
+
   setShippingPrice(value: number) {
     this.shippingPrice = value;
     this.calculateTotals();

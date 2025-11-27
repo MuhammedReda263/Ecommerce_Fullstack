@@ -12,6 +12,7 @@ import { Address } from './address/address';
 import { Delivery } from './delivery/delivery';
 import {MatRadioModule} from '@angular/material/radio';
 import { Payment } from './payment/payment';
+import { Success } from './success/success';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { Payment } from './payment/payment';
     Stepper,
     Address,
     Delivery,
-    Payment
+    Payment,
+    Success
   ],
   imports: [
     CommonModule,
