@@ -1,158 +1,128 @@
-<div>
-<section class="vh-100" style="background-color: #eee;">
-  <div class="container vh-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-lg-12 col-xl-11">
-        <div class="card text-black" style="border-radius: 25px;">
-          <div class="card-body p-md-5">
-            <div class="row justify-content-center">
-              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+<div class="register-wrapper">
 
-                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+  <section class="register-container my-4 mx-5">
 
-                <!-- ⭐ Form Group -->
-                <form class="mx-1 mx-md-4" [formGroup]="fromgroup" (ngSubmit)="Submit()">
+    <div class="row justify-content-center align-items-center h-75 w-100">
 
-                  <!-- ⭐ Username -->
-                  <div class="d-flex flex-row align-items-center mb-4 form-row">
-                    <div class="form-outline flex-fill mb-0">
-                      <label class="form-label" for="UserName">User Name</label>
+      <div class="col-12 col-md-7 col-lg-5">
 
-                      <input type="text" id="UserName" class="form-control" formControlName="userName" [ngClass]="{
-                          'is-invalid': UserName?.invalid && UserName?.touched,
-                          'is-valid': UserName?.valid && UserName?.touched
-                        }" />
+        <div class="register-box shadow-sm rounded-4 p-4 p-md-5 mx-3">
 
-                      @if(UserName?.invalid && UserName?.touched) {
-                      <div class="text-danger mt-1">
-                        @if(UserName?.errors?.['required']) {
-                        <small>Username is required</small>
-                        }
-                        @if(UserName?.errors?.['minlength']) {
-                        <small>
-                          Minimum length is {{ UserName?.errors?.['minlength'].requiredLength }}
-                        </small>
-                        }
-                      </div>
-                      }
-                    </div>
-                  </div>
+          <h2 class="fw-bold text-primary text-center mb-1">Create Account</h2>
+          <div class="title-underline mb-4"></div>
 
-                  <!-- ⭐ DisplayName -->
-                  <div class="d-flex flex-row align-items-center mb-4 form-row">
-                    <div class="form-outline flex-fill mb-0">
-                      <label class="form-label" for="DisplayName">Display Name</label>
+          <form [formGroup]="fromgroup" (ngSubmit)="Submit()">
 
-                      <input type="text" id="DisplayName" class="form-control" formControlName="displayName" [ngClass]="{
-                          'is-invalid': DisplayName?.invalid && DisplayName?.touched,
-                          'is-valid': DisplayName?.valid && DisplayName?.touched
-                        }" />
-
-                      @if(DisplayName?.invalid && DisplayName?.touched) {
-                      <div class="text-danger mt-1">
-                        <small>Display Name is required</small>
-                      </div>
-                      }
-                    </div>
-                  </div>
-
-                  <!-- ⭐ Email -->
-                  <div class="d-flex flex-row align-items-center mb-4 form-row">
-                    <div class="form-outline flex-fill mb-0">
-                      <label class="form-label" for="Email">Email</label>
-
-                      <input type="email" id="Email" class="form-control" formControlName="email" [ngClass]="{
-                          'is-invalid': Email?.invalid && Email?.touched,
-                          'is-valid': Email?.valid && Email?.touched
-                        }" />
-
-                      @if(Email?.invalid && Email?.touched) {
-                      <div class="text-danger mt-1">
-                        @if(Email?.errors?.['required']) {
-                        <small>Email is required</small>
-                        }
-                        @if(Email?.errors?.['email']) {
-                        <small>Invalid Email format</small>
-                        }
-                      </div>
-                      }
-                    </div>
-                  </div>
-
-                  <!-- ⭐ Password -->
-                  <div class="d-flex flex-row align-items-center mb-4 form-row">
-                    <div class="form-outline flex-fill mb-0">
-                      <label class="form-label" for="Password">Password</label>
-
-                      <input type="password" id="Password" class="form-control" formControlName="password" [ngClass]="{
-                          'is-invalid': Password?.invalid && Password?.touched,
-                          'is-valid': Password?.valid && Password?.touched
-                        }" />
-
-                      @if(Password?.invalid && Password?.touched) {
-                      <div class="text-danger mt-1">
-                        @if(Password?.errors?.['required']) {
-                        <small>Password is required</small>
-                        }
-                        @if(Password?.errors?.['minlength']) {
-                        <small>
-                          Minimum length is {{ Password?.errors?.['minlength'].requiredLength }}
-                        </small>
-                        }
-                      </div>
-                      }
-                    </div>
-                  </div>
-
-                  <!-- ⭐ Submit -->
-                  <div class="justify-content-center align-items-center  mb-3 mb-lg-4">
-                    <button type="submit" [disabled]="fromgroup.invalid"
-                      class="btn btn-primary btn-lg">Register</button>
-                    <p class="small fw-bold mt-2 pt-1 mb-0">
-                      Do you have an account?
-                      <a routerLink="/account/login" class="link-danger">Login</a>
-                    </p>
-                  </div>
-
-                </form>
-
-              </div>
-
-              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                  class="img-fluid" />
-              </div>
-
+            <!-- Username -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Username</label>
+              <input
+                type="text"
+                class="form-control form-control-lg input-custom"
+                placeholder="Enter your username"
+                formControlName="userName"
+                [ngClass]="{
+                  'is-invalid': UserName?.invalid && UserName?.touched,
+                  'is-valid': UserName?.valid && UserName?.touched
+                }"
+              />
+              @if(UserName?.invalid && UserName?.touched){
+                <small class="text-danger d-block mt-1">
+                  @if(UserName?.errors?.['required']) { Username is required. }
+                  @if(UserName?.errors?.['minlength']) {
+                    Minimum length is {{UserName?.errors?.['minlength'].requiredLength}}.
+                  }
+                </small>
+              }
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<div
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-    <!-- Copyright -->
-    <div class="text-white mb-3 mb-md-0">
-      Copyright © 2020. All rights reserved.
-    </div>
-    <!-- Copyright -->
 
-    <!-- Right -->
-    <div>
-      <a href="#!" class="text-white me-4">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fa fa-google"></i>
-      </a>
-      <a href="#!" class="text-white">
-        <i class="fa fa-linkedin"></i>
-      </a>
+            <!-- Display Name -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Display Name</label>
+              <input
+                type="text"
+                class="form-control form-control-lg input-custom"
+                placeholder="Enter your display name"
+                formControlName="displayName"
+                [ngClass]="{
+                  'is-invalid': DisplayName?.invalid && DisplayName?.touched,
+                  'is-valid': DisplayName?.valid && DisplayName?.touched
+                }"
+              />
+              @if(DisplayName?.invalid && DisplayName?.touched){
+                <small class="text-danger d-block mt-1">Display Name is required.</small>
+              }
+            </div>
+
+            <!-- Email -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Email</label>
+              <input
+                type="email"
+                class="form-control form-control-lg input-custom"
+                placeholder="Enter your email address"
+                formControlName="email"
+                [ngClass]="{
+                  'is-invalid': Email?.invalid && Email?.touched,
+                  'is-valid': Email?.valid && Email?.touched
+                }"
+              />
+              @if(Email?.invalid && Email?.touched){
+                <small class="text-danger d-block mt-1">
+                  @if(Email?.errors?.['required']) { Email is required. }
+                  @if(Email?.errors?.['email']) { Invalid email format. }
+                </small>
+              }
+            </div>
+
+            <!-- Password -->
+            <div class="mb-4">
+              <label class="form-label fw-semibold">Password</label>
+              <input
+                type="password"
+                class="form-control form-control-lg input-custom"
+                placeholder="Enter a strong password"
+                formControlName="password"
+                [ngClass]="{
+                  'is-invalid': Password?.invalid && Password?.touched,
+                  'is-valid': Password?.valid && Password?.touched
+                }"
+              />
+              @if(Password?.invalid && Password?.touched){
+                <small class="text-danger d-block mt-1">
+                  @if(Password?.errors?.['required']) { Password is required. }
+                  @if(Password?.errors?.['minlength']) {
+                    Minimum length is {{ Password?.errors?.['minlength'].requiredLength }}.
+                  }
+                </small>
+              }
+            </div>
+
+            <!-- Submit -->
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg w-100 rounded-3 submit-btn"
+              [disabled]="fromgroup.invalid">
+              Register
+            </button>
+
+            <p class="text-center mt-3 mb-0 small">
+              Already have an account?
+              <a routerLink="/account/login" class="fw-semibold text-primary">Login</a>
+            </p>
+
+          </form>
+
+        </div>
+
+      </div>
+
     </div>
-    <!-- Right -->
-  </div>
+
+  </section>
+
+  <footer class="register-footer text-center py-3">
+    <div class="text-white small">© 2024 All Rights Reserved.</div>
+  </footer>
+
 </div>

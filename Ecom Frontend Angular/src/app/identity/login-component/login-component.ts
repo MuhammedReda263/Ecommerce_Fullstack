@@ -13,19 +13,19 @@ import { Router } from '@angular/router';
 export class LoginComponent implements OnInit {
   formGroup: FormGroup;
   constructor(
-     private _fb: FormBuilder,
-     private _identityService: IdentityService,
-     private _toaster: ToastrService,
-     private _router: Router
-    
-    ) { }
+    private _fb: FormBuilder,
+    private _identityService: IdentityService,
+    private _toaster: ToastrService,
+    private _router: Router
+
+  ) { }
   ngOnInit(): void {
     this.formValidation();
   }
   formValidation() {
     this.formGroup = this._fb.group({
-      email: ['', [Validators.required,Validators.email]],
-      password: ['', [Validators.required,Validators.minLength(6)]]
+      email: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.minLength(6)]]
     })
   }
 
@@ -40,15 +40,17 @@ export class LoginComponent implements OnInit {
     if (this.formGroup.valid) {
       this._identityService.login(this.formGroup.value).subscribe({
         next: (res) => {
-          console.log(res);
-          this._toaster.success("Login Successful","Success")
+          this._toaster.success("Login Successful", "Success")
+          this._identityService.roleSource.next(null);
+          this._identityService.loadRole();
+          this._identityService.authState.next(true);
           this._router.navigate(['/shop']);
 
 
         },
         error: (err) => {
           console.log(err);
-          this._toaster.error(err.error.message,"Error")
+          this._toaster.error(err.error.message, "Error")
         }
       })
     }

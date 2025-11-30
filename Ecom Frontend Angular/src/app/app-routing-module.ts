@@ -6,6 +6,7 @@ import { Home } from './home/home';
 const routes: Routes = [
   {path: '', component: Home},
   { path: 'shop', loadChildren: () => import('./shop/shop-module').then(m => m.ShopModule) },
+  { path: 'pages', loadChildren: () => import('./pages/pages-module').then(m => m.PagesModule) },
   { path: 'admin', loadChildren: () => import('./admin/admin-module').then(m => m.AdminModule) },
   { path: 'orders', loadChildren: () => import('./orders/orders-module').then(m => m.OrdersModule) },
   { path: 'account', loadChildren: () => import('./identity/identity-module').then(m => m.IdentityModule) },

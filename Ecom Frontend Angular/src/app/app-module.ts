@@ -8,6 +8,7 @@ import { HomeModule } from "./home/home-module";
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CredentialsInterceptor } from './core/interceptor/credintials-interceptor';
+import { AuthInterceptor } from './core/interceptor/auth-interceptor';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,12 @@ ToastrModule.forRoot({
     provideBrowserGlobalErrorListeners(),
     provideClientHydration(withEventReplay()),
     provideHttpClient(withInterceptorsFromDi()),
-    { provide: HTTP_INTERCEPTORS, useClass: CredentialsInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: CredentialsInterceptor, multi: true },
+      {
+    provide: HTTP_INTERCEPTORS,
+    useClass: AuthInterceptor,
+    multi: true
+  }
   ],
   bootstrap: [App]
 })

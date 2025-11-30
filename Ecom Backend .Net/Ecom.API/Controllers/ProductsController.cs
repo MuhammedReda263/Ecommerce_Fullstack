@@ -5,11 +5,13 @@ using Ecom.Core.Entities.Product;
 using Ecom.Core.Interfaces;
 using Ecom.Core.Services;
 using Ecom.Core.Sharing;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ecom.API.Controllers
 {
+    [Authorize(Roles ="admin")]
     public class ProductsController : BaseController
     {
         private readonly IImageManagementService _imageService;
@@ -18,6 +20,7 @@ namespace Ecom.API.Controllers
             _imageService = imageService;
         }
 
+        [AllowAnonymous]
         [HttpGet()]
         public async Task<IActionResult> getAll([FromQuery] ProductParams productParams)
         {
@@ -30,6 +33,7 @@ namespace Ecom.API.Controllers
 
         }
 
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> getById(int id)
         {

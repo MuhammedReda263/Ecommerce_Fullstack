@@ -4,7 +4,9 @@ using Ecom.Core.DTO;
 using Ecom.Core.Entities;
 using Ecom.Core.Entities.Order;
 using Ecom.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -13,9 +15,23 @@ namespace Ecom.API.Controllers
 
     public class AccountController : BaseController
     {
+
         public AccountController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
         {
         }
+
+
+        [Authorize]
+        [HttpGet("role")]
+        public IActionResult GetRole()
+        {
+            var role = User.FindFirst(ClaimTypes.Role)?.Value;
+            return Ok(new { role });
+        }
+
+
+        [HttpGet("isAuth")]
+        public IActionResult isAuth() => User.Identity!.IsAuthenticated ? Ok() : Unauthorized();
 
         [HttpPost("register")]
         public async Task<IActionResult> Register( RegisterDTO registerDTO)
@@ -86,6 +102,22 @@ namespace Ecom.API.Controllers
             return Ok(result);
 
         }
+
+        [Authorize]
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            Response.Cookies.Delete("token", new CookieOptions
+            {
+                Secure = true,
+                HttpOnly = true,
+                SameSite = SameSiteMode.None
+            });
+
+            return Ok(new { message = "Logged out successfully" });
+        }
+
+
 
 
 

@@ -95,7 +95,7 @@ namespace Ecom.Infrastructure.Repositories
                 }
                 var result = await _signInManager.CheckPasswordSignInAsync(finduser, login.Password, true);
 
-                if (result.Succeeded) return _generateToken.GetAndCreateTokenAsync(finduser);
+                if (result.Succeeded) return await _generateToken.GetAndCreateTokenAsync(finduser);
                 else return "Please check your email and password, something went wrong";
             }
 
@@ -103,6 +103,10 @@ namespace Ecom.Infrastructure.Repositories
             return "Please check your email and password, something went wrong";
         }
 
+        public async Task LogOut()
+        {
+              await _signInManager.SignOutAsync();
+        }
         public async Task<bool> SendEmailForForgetPassword(string email)
         {
             var findUser = await _userManager.FindByEmailAsync(email);

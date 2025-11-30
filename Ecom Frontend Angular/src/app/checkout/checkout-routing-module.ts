@@ -2,10 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Checkout } from './checkout/checkout';
 import { Success } from './success/success';
+import { AuthGuard } from '../core/guards/auth.guard';
 
 const routes: Routes = [
-  {path:'', component: Checkout},
-  {path:'success/:orderId', component:Success}
+  {path:'', component: Checkout, canActivate: [AuthGuard]},
+  {path:'success/:orderId', component:Success,canActivate: [AuthGuard]}
 ];
 
 @NgModule({
