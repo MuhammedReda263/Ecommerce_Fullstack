@@ -31,10 +31,12 @@
 
 
                 <div class="price-area my-4">
-                    <p class="old-price mb-1">{{product.oldPrice|currency:'':'':'1.2-2'}} EGP &nbsp; <span
-                            class="old-price-discount text-danger">{{calculateDiscount(product.newPrice,product.oldPrice)}}%</span>
-                    </p>
-                    <p class="new-price text-bold mb-1">{{product.newPrice|currency:'':'':'1.2-2' }} EGP</p>
+                    <div class="d-flex">
+                    <p class="old-price mb-1 price-original">{{product.oldPrice|currency}}</p>
+                    <span class="old-price-discount text-danger">{{calculateDiscount(product.newPrice,product.oldPrice)}}%</span>
+                    </div>
+
+                    <p class="new-price text-bold mb-1">{{product.newPrice|currency}}</p>
                     <p class="text-secondary mb-1">(Additional tax may apply on checkout)</p>
                     <p class="text-danger">quantity : {{quantity}}</p>
                     <div>
@@ -137,7 +139,8 @@
 
         <div class="col-md-3">
             <div class="similar-product">
-                <img class="w-100" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" alt="Pattern Dress">
+                <img class="w-100" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+                    alt="Pattern Dress">
                 <p class="title">Lovely Dress with Patterns</p>
                 <p class="price">$85</p>
             </div>
@@ -145,7 +148,8 @@
 
         <div class="col-md-3">
             <div class="similar-product">
-                <img class="w-100" src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518" alt="Fashion Dress">
+                <img class="w-100" src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518"
+                    alt="Fashion Dress">
                 <p class="title">Lovely Fashion Dress</p>
                 <p class="price">$200</p>
             </div>

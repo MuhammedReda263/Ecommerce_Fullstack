@@ -34,6 +34,8 @@ namespace Ecom.Infrastructure
 
             services.AddScoped<IOrderService, OrderService>();
 
+            services.AddScoped<IPaymentService, PaymentService>();
+
             //Applay redis
 
             services.AddSingleton<IConnectionMultiplexer>( sp =>
