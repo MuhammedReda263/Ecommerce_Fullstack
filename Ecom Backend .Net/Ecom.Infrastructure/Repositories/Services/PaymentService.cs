@@ -27,52 +27,84 @@ namespace Ecom.Infrastructure.Repositories.Services
             _appDbContext = appDbContext;
         }
 
-        public async Task<CustomerBasket> CreateOrUpdatePaymentAsync(string basketId, int? delivertMethodId)
+        public async Task<CustomerBasket> CreateOrUpdatePaymentAsync(string basketId, int? deliveryMethodId)
         {
             var basket = await _unitOfWork.CustomerBaskets.GetBasketAsync(basketId);
             StripeConfiguration.ApiKey = _configuration["Stripe:SecretKey"];
+
             decimal shippingPrice = 0m;
-            if (delivertMethodId.HasValue)
+
+            if (deliveryMethodId.HasValue)
             {
-                var delivery = await _appDbContext.DeliveryMethods.FirstOrDefaultAsync(temp => temp.Id == delivertMethodId);
+                var delivery = await _appDbContext.DeliveryMethods
+                    .FirstOrDefaultAsync(m => m.Id == deliveryMethodId.Value);
+
                 shippingPrice = delivery!.Price;
             }
 
+            // Update basket item prices
             foreach (var item in basket!.basketItems)
             {
-                var product = await _appDbContext.Products.FirstOrDefaultAsync(temp => temp.Id == item.Id);
+                var product = await _appDbContext.Products.FirstOrDefaultAsync(p => p.Id == item.Id);
                 item.Price = product!.NewPrice;
             }
 
+            var amount = (long)basket.basketItems.Sum(m => m.Quantity * (m.Price * 100))
+                         + (long)(shippingPrice * 100);
+
             PaymentIntentService paymentIntentService = new();
-            PaymentIntent _intent;
+
+            PaymentIntent? intent = null;
+
             if (string.IsNullOrEmpty(basket.paymentIntentId))
             {
-                var option = new PaymentIntentCreateOptions
+                // Create new PaymentIntent
+                var options = new PaymentIntentCreateOptions
                 {
-                    Amount = (long)basket.basketItems.Sum(m => m.Quantity * (m.Price * 100)) + (long)(shippingPrice * 100),
-
-                    Currency = "USD",
+                    Amount = amount,
+                    Currency = "usd",
                     PaymentMethodTypes = new List<string> { "card" }
                 };
-                _intent = await paymentIntentService.CreateAsync(option);
-                basket.paymentIntentId = _intent.Id;
-                basket.clientSecret = _intent.ClientSecret;
+
+                intent = await paymentIntentService.CreateAsync(options);
+                basket.paymentIntentId = intent.Id;
+                basket.clientSecret = intent.ClientSecret;
             }
             else
             {
-                var option = new PaymentIntentUpdateOptions
-                {
-                    Amount = (long)basket.basketItems.Sum(m => m.Quantity * (m.Price * 100)) + (long)(shippingPrice * 100),
+                // Fetch existing intent
+                intent = await paymentIntentService.GetAsync(basket.paymentIntentId);
 
-                };
-                await paymentIntentService.UpdateAsync(basket.paymentIntentId, option);
+                // Check if allowed to update
+                if (intent.Status == "requires_payment_method")
+                {
+                    var updateOptions = new PaymentIntentUpdateOptions
+                    {
+                        Amount = amount
+                    };
+
+                    await paymentIntentService.UpdateAsync(intent.Id, updateOptions);
+                }
+                else
+                {
+                    // Not allowed to update → create new one
+                    var options = new PaymentIntentCreateOptions
+                    {
+                        Amount = amount,
+                        Currency = "usd",
+                        PaymentMethodTypes = new List<string> { "card" }
+                    };
+
+                    var newIntent = await paymentIntentService.CreateAsync(options);
+                    basket.paymentIntentId = newIntent.Id;
+                    basket.clientSecret = newIntent.ClientSecret;
+                }
             }
+
             await _unitOfWork.CustomerBaskets.UpdateBasketAsync(basket);
             return basket;
-
-
         }
+
 
         public async Task<Orders> UpdateOrderFaild(string PaymentInten)
         {

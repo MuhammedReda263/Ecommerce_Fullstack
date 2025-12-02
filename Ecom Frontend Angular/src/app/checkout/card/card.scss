@@ -1,0 +1,16 @@
+.payment-card {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.stripe-input {
+  border: 1px solid #dee2e6;
+  background: #f8f9fa;
+  transition: border-color .3s ease;
+}
+
+.stripe-input:hover,
+.stripe-input:focus {
+  border-color: #0d6efd;
+}

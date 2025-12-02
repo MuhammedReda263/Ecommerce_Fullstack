@@ -23,7 +23,9 @@ export class CheckoutService {
     return this._http.get<DeliveryModel[]>(this.baseUrl+"Orders/delivary")
   }
 
-  createOrder (form:ICreateOrder){
+  order: ICreateOrder
+  createOrder (form:ICreateOrder=this.order){
+    console.log(this.order);
     return this._http.post<IOrder>(this.baseUrl+"Orders",form)
   }
 }

@@ -2,15 +2,14 @@
 
   <mat-step [stepControl]="address">
     <ng-template matStepLabel>Fill out your address</ng-template>
-
     <app-address [addressFromGroup]="address"></app-address>
   </mat-step>
 
   <mat-step [stepControl]="deliveryForm" label="Delivery">
 <app-delivery [deliveryFormGroup]="deliveryForm"></app-delivery>
   </mat-step>
-  <mat-step>
 
+  <mat-step>
     <ng-template matStepLabel>Done</ng-template>
     <app-payment [shippingAddress]="address" [delivery]="deliveryForm"></app-payment>
     <div>
@@ -18,4 +17,6 @@
       <button matButton (click)="stepper.reset()">Reset</button>
     </div>
   </mat-step>
+
+  
 </mat-stepper>

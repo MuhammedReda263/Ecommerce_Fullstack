@@ -24,18 +24,11 @@ export class Payment {
 
   createOrder() {
     var basket = this._basketService.getCurrentBasketValue();
-    this.order = {
+    this._checkoutService.order = {
       deliveryMethodId: this.delivery.value.delivery,
       basketId: basket.id,
       shipAddress: this.shippingAddress.value
     }
-    this._checkoutService.createOrder(this.order).subscribe({
-      next: (value) => {
-        this._basketService.deleteBasketFE();
-        this._toaster.success("Order Created Succefully", "Sucess");
-        this._router.navigate(['/checkout/success',value.id])
 
-      }
-    })
   }
 }
