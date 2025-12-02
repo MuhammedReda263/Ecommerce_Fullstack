@@ -10,20 +10,21 @@ namespace Ecom.Core.Entities.Order
     {
         public Orders() { }
 
-        public Orders(string buyerEmail, decimal subTotal,ShippingAddress shippingAddress, ShippingAddress ship, IReadOnlyList<OrderItem> orderItems, DeliveryMethod deliveryMethod)
+        public Orders(string buyerEmail, decimal subTotal,ShippingAddress shippingAddress, ShippingAddress ship, IReadOnlyList<OrderItem> orderItems, DeliveryMethod deliveryMethod,string paymentInrentId)
         {
             BuyerEmail = buyerEmail;
             SubTotal = subTotal;
             this.shippingAddress = shippingAddress;
             this.orderItems = orderItems;
             this.deliveryMethod = deliveryMethod;
+            this.PaymentIntentId = paymentInrentId;
         }
 
         public string BuyerEmail { get; set; }
         public decimal SubTotal { get; set; }
         public DateTime OrderDate { get; set; } = DateTime.Now;
         public ShippingAddress shippingAddress { get; set; }
-        public string PaymentIntentId { get; set; } = "paymentId";
+        public string PaymentIntentId { get; set; }
         public IReadOnlyList<OrderItem> orderItems { get; set; }
         public DeliveryMethod deliveryMethod { get; set; }
 

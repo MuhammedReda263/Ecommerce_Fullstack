@@ -21,12 +21,14 @@ namespace Ecom.Infrastructure.Repositories.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly AppDbContext _dbContext;
         private readonly IMapper _mapper;
+        private readonly IPaymentService _paymentService;
 
-        public OrderService(IUnitOfWork unitOfWork, AppDbContext dbContext, IMapper mapper)
+        public OrderService(IUnitOfWork unitOfWork, AppDbContext dbContext, IMapper mapper, IPaymentService paymentService)
         {
             _unitOfWork = unitOfWork;
             _dbContext = dbContext;
             _mapper = mapper;
+            _paymentService = paymentService;
         }
 
         public async Task<Orders> CreateOrdersAsync(OrderDTO orderDTO, string BuyerEmail)
@@ -43,8 +45,16 @@ namespace Ecom.Infrastructure.Repositories.Services
             var deliverMethod = await _dbContext.DeliveryMethods.FirstOrDefaultAsync(m => m.Id == orderDTO.deliveryMethodId);
             var subTotal = orderItems.Sum(m => m.Price * m.Quntity);
             var ship = _mapper.Map<ShippingAddress>(orderDTO.shipAddress);
+            var ExisitOrder = await _dbContext.Orders.Where(m => m.PaymentIntentId == baskets.paymentIntentId).FirstOrDefaultAsync();
+
+            if (ExisitOrder is not null)
+            {
+                _dbContext.Orders.Remove(ExisitOrder);
+                await _paymentService.CreateOrUpdatePaymentAsync(baskets.Id!, deliverMethod!.Id!);
+            }
+
             var order = new
-               Orders(BuyerEmail, subTotal, ship, ship, orderItems, deliverMethod!);
+               Orders(BuyerEmail, subTotal, ship, ship, orderItems, deliverMethod!,baskets.paymentIntentId!);
             await _dbContext.Orders.AddAsync(order);
             await _dbContext.SaveChangesAsync();
             await _unitOfWork.CustomerBaskets.DeleteBasketAsync(orderDTO.basketId);

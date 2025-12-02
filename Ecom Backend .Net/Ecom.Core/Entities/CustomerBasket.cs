@@ -13,6 +13,9 @@ namespace Ecom.Core.Entities
         {
             this.Id = id;
         }
+
+        public string? paymentIntentId { get; set; }
+        public string? clientSecret { get; set; }
         public string Id { get; set; }
         public List<BasketItem> basketItems { get; set; } = new List<BasketItem>();
     }

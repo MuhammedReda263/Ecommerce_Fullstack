@@ -54,13 +54,14 @@ export class BasketService {
   }
 
   setBasket(Basket: IBasket) {
+    console.log(Basket)
     return this._http.post(this.baseUrl + "Basket", Basket).subscribe({
       next: (basket: IBasket) => {
         this.basketSource.next(basket);
         console.log(basket);
         this.calculateTotals();
       },
-      error: (err) => console.error('Error creating basket:', err)
+      error: (err) => console.log('Error creating basket:', err)
     })
   }
 

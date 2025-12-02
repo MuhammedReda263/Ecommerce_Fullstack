@@ -320,6 +320,47 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Ecom.API.Controllers.PaymentController",
+    "Method": "create",
+    "RelativePath": "api/Payment/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "deliveryId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Ecom.Core.Entities.CustomerBasket",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Ecom.API.Controllers.PaymentController",
+    "Method": "UpdateStatusWithStripe",
+    "RelativePath": "api/Payment/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Ecom.API.Controllers.ProductsController",
     "Method": "getAll",
     "RelativePath": "api/Products",
