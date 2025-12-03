@@ -57,7 +57,7 @@ The solution demonstrates modern software engineering practices such as **Clean 
 - Clean separation between data access and business logic  
 
 ### AutoMapper
-Mapping Entities ↔ DTOs.
+- Mapping Entities ↔ DTOs.
 
 ### Redis Cache
 - Caching products  
