@@ -89,7 +89,7 @@ namespace Ecom.Infrastructure.Repositories
                 {
                     string token = await _userManager.GenerateEmailConfirmationTokenAsync(finduser);
 
-                    await SendEmail(finduser.Email!, token, "active", "ActiveEmail", "Please active your email, click on button to active");
+                    await SendEmail(finduser.Email!, token, "active", "Active Email", "Please active your email, click on button to active");
 
                     return "Please confirem your email first, we have sent activatin link to your E-mail";
                 }
@@ -112,7 +112,7 @@ namespace Ecom.Infrastructure.Repositories
             var findUser = await _userManager.FindByEmailAsync(email);
             if (findUser == null) return false;
             var token = await _userManager.GeneratePasswordResetTokenAsync(findUser);
-            await SendEmail(findUser.Email!, token, "resetPassword", "Rest pssword", "click on button to Reset your password");
+            await SendEmail(findUser.Email!, token, "resetPassword", "Reset Password", "Please click the button below to reset your password.");
             return true;
 
         }

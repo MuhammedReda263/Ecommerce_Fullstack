@@ -21,7 +21,9 @@ export class App implements OnInit {
       next: (value) => {
         this._identitySerivce.authState.next(true);
       },
-      error: (value) => {
+      error: (error) => {
+        // Silently fail for 401 - user is not authenticated, which is ok for public pages
+        console.log('Auth check failed (expected for unauthenticated users):', error.status);
         this._identitySerivce.authState.next(false)
       }
     })

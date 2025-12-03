@@ -22,7 +22,7 @@ export class Card {
   cardElement: any;
 
   async ngAfterViewInit() {
-    this.stripe = await loadStripe('pk_test_51RVElJCjyjrIVN0hx5wGwgxT4zXleQuBmoLUkeaYsvoHKppr2UZQ37iIAn8DeFqTC95LIvpRAKewflK8FqPeTCdh00EMA79T7V');
+    this.stripe = await loadStripe('pk_test_51RVElJCjyjrIVN0hwsYjs99yOChhpUYM1RPkzKXIb7iNVf6M5jeYx3zz7tf8L05q04ERzh5kizdAvfdOBHyS0YYL00wKdUXjD6');
 
     const elements = this.stripe.elements();
     this.cardElement = elements.create('card');

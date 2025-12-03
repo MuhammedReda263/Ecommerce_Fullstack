@@ -24,9 +24,9 @@ export class ShopComponent implements OnInit {
   categoryId: number
 
   sortingArray = [
-    { name: "🔤 Name (A → Z)", value: "Name" },
-    { name: "⬆️ Price (Low → High)", value: "priceace" },
-    { name: "⬇️ Price (High → Low)", value: "pricedce" },
+    { name: "Name (A → Z)", value: "Name" },
+    { name: "Price (Low → High)", value: "priceace" },
+    { name: "Price (High → Low)", value: "pricedce" },
 
   ]
   getProduct() {
