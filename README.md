@@ -1,7 +1,7 @@
 # Ecommerce System – .NET 8 Web API + Angular 20
 
 This repository contains a **full-stack Ecommerce application** built using **.NET 8 Web API** and **Angular 20**.  
-The solution demonstrates modern software engineering practices such as **Clean Architecture**, **Redis Caching**, **JWT Authentication**, **Email Services**, **Stripe Payment**, and a complete Angular client with guards, interceptors, and responsive UI.
+The solution demonstrates modern software engineering practices such as **Clean Architecture**, **Repository & Unit of Work Patterns**, **Redis Caching**, **JWT Authentication**, **Email Services**, **Stripe Payment**, and a complete Angular client with guards, interceptors, and responsive UI.
 
 ---
 
@@ -12,7 +12,7 @@ The solution demonstrates modern software engineering practices such as **Clean 
 - JWT Authentication  
 - Roles: **Admin** & **User**  
 - Email verification (activate account)  
-- Forget password + reset password email  
+- Forgot password + reset password email  
 
 ---
 
@@ -23,7 +23,7 @@ The solution demonstrates modern software engineering practices such as **Clean 
 - Remove/update basket items  
 - Search products  
 - Filter products (category, price, etc.)  
-- **Create Orders**  
+- Create Orders
 - View order history  
 - Add shipping address  
 - Choose delivery method  
@@ -49,7 +49,12 @@ The solution demonstrates modern software engineering practices such as **Clean 
 ### Entity Framework Core
 - Code-First Migrations  
 - SQL Server  
-- Repository-like abstraction via specifications  
+- LINQ querying  
+
+### **Repository Pattern & Unit of Work**
+- Generic repository implementation  
+- Unit of Work to manage transactions  
+- Clean separation between data access and business logic  
 
 ### AutoMapper
 Mapping Entities ↔ DTOs.
@@ -57,26 +62,27 @@ Mapping Entities ↔ DTOs.
 ### Redis Cache
 - Caching products  
 - Caching user basket  
-- Improved app performance  
+- Improved performance & scalability  
 
 ### JWT Authentication
 - Access tokens  
-- Secure endpoints  
 - Role-based authorization  
+- Secure endpoints  
 
 ### Email Service
 - Activation emails  
-- Forgot password workflow  
+- Forgot password email workflow  
 
 ### Stripe Payment Integration
-- Client + Server payment workflow  
+- Secure client + server payment flow  
+- Session creation & order confirmation  
 
 ### Pagination Support
 - Server-side pagination  
-- Filtering + sorting  
+- Filtering, searching & sorting support  
 
 ### Asynchronous Programming
-- Fully async APIs for better scalability  
+- Fully asynchronous services and controllers  
 
 ---
 
@@ -84,16 +90,16 @@ Mapping Entities ↔ DTOs.
 
 ### UI & Styling
 - HTML, CSS, Bootstrap  
-- Clean, responsive layout  
+- Clean and responsive user interface  
 
 ### Angular Features Used
 - Components, Modules, Routing  
-- **HttpClient** for communicating with API  
+- **HttpClient** for API communication  
 - **Interceptors** (JWT, Loading Spinner)  
 - **Guards** (AuthGuard, AdminGuard)  
-- **RxJS** for state & async streams  
-- Custom services  
-- Reactive forms  
+- **RxJS** for async streams and state handling  
+- Custom Angular services  
+- Reactive Forms  
 
 ### User Experience
 - Login / Register  
@@ -110,6 +116,8 @@ Mapping Entities ↔ DTOs.
 ### Backend
 - **.NET 8 Web API**  
 - **Entity Framework Core**  
+- **Repository Pattern**  
+- **Unit of Work Pattern**  
 - **AutoMapper**  
 - **Redis**  
 - **JWT Authentication**  
@@ -119,11 +127,9 @@ Mapping Entities ↔ DTOs.
 - **Asynchronous Programming**
 
 ### Frontend
-- **Angular 17**  
+- **Angular 20**  
 - **RxJS**  
 - **Bootstrap**  
 - **HTML / CSS**  
 - **Guards & Interceptors**  
 - **HttpClient**
-
-
